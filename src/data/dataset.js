@@ -57,7 +57,7 @@ export default [
     id: "kiki:-entregas-a-domicilio",
     name: "Kiki: entregas a domicilio",
     shortDescription: "Encantadora historia de una joven bruja que busca encontrar su lugar en el mundo.",
-    description: "Nicky, la aprendiz de bruja, dirigida por Hayao Miyazaki, sigue la historia de Kiki, una joven bruja que emprende un viaje para encontrar su lugar en el mundo. La película destaca la autoexploración, la amistad y la superación de los desafíos. Una experiencia mágica que ha cautivado a audiencias de todas las edades.",
+    description: "Kiki, entregas a domicilio dirigida por Hayao Miyazaki, sigue la historia de Kiki, una joven bruja que emprende un viaje para encontrar su lugar en el mundo. La película destaca la autoexploración, la amistad y la superación de los desafíos. Una experiencia mágica que ha cautivado a audiencias de todas las edades.",
     imageUrl: "URL_de_la_imagen_Nicky_la_aprendiz_de_bruja.jpg",
     facts: {
       "Duración": "1h 42m",
@@ -210,10 +210,10 @@ id: "el-castillo-ambulante",
     }
   }
 {
-    id: "ponyo-en-el-acantilado",
-    name: "Ponyo en el acantilado",
+    id: "ponyo-y-el-secreto-de-la-sirenita",
+    name: "Ponyo y el secreto de la sirenita",
     shortDescription: "Encantadora historia sobre la amistad entre un niño y un pez dorado que desea convertirse en humana.",
-    description: "Ponyo en el acantilado, dirigida por Hayao Miyazaki, es una encantadora historia que sigue la amistad entre Sosuke, un niño, y Ponyo, un pez dorado con el deseo de convertirse en humana. La película celebra la imaginación, la conexión con la naturaleza y la pureza de la infancia.",
+    description: "Ponyo y el secreto de la sirenita, dirigida por Hayao Miyazaki, es una encantadora historia que sigue la amistad entre Sosuke, un niño, y Ponyo, un pez dorado con el deseo de convertirse en humana. La película celebra la imaginación, la conexión con la naturaleza y la pureza de la infancia.",
     imageUrl: "URL_de_la_imagen_Ponyo_en_el_Acantilado.jpg",
     facts: {
       "Duración": "1h 40m",
