@@ -1,4 +1,5 @@
 export default [
+
   {
     id: "nausicaa-del-valle-del-viento",
     name: "Nausicaä del Valle del Viento",
