@@ -11,7 +11,7 @@ export default [
       "duration": "1h 57m",
       "releaseYear": "1984",
       "genders": "Fantasía, Ciencia Ficción",
-      "boxOfficeRevenue": "$10 millones en taquilla."
+      "boxOfficeRevenue": "$10 millones USD en taquilla."
     }
   },
 {
@@ -24,7 +24,7 @@ export default [
       "duration": "2h 4m",
       "releaseYear": "1986",
       "genders": "Aventura, Fantasía",
-      "boxOfficeRevenue": "$15 millones en taquilla."
+      "boxOfficeRevenue": "$15 millones USD en taquilla."
     }
   },
 {
@@ -37,7 +37,7 @@ export default [
       "duration": "2h 4m",
       "releaseYear": "1988",
       "genders": "Drama, Bélico, Terror",
-      "boxOfficeRevenue": "$5 millones en taquilla."
+      "boxOfficeRevenue": "$14 millones USD en taquilla."
     }
   },
 {
@@ -50,7 +50,7 @@ export default [
       "duration": "1h 26m",
       "releaseYear": "1988",
       "genders": "Familia, Fantasía, Aventura",
-      "boxOfficeRevenue": "$41 millones en taquilla."
+      "boxOfficeRevenue": "$30 millones USD en taquilla."
     }
   },
 {
@@ -63,7 +63,7 @@ export default [
       "duration": "1h 42m",
       "releaseYear": "1989",
       "genders": "Aventura, Fantasía",
-      "boxOfficeRevenue": "$43 millones en taquilla."
+      "boxOfficeRevenue": "$18 millones USD en taquilla."
     }
   },
 {
@@ -76,7 +76,7 @@ export default [
       "duration": "1h 58m",
       "releaseYear": "1991",
       "genders": "Drama, Romance",
-      "boxOfficeRevenue": "$45 millones en taquilla."
+      "boxOfficeRevenue": "$525 mil USD en taquilla."
     }
   },
 {
@@ -89,7 +89,7 @@ export default [
       "duration": "1h 42m",
       "releaseYear": "1992",
       "genders": "Aventura, Fantasía",
-      "boxOfficeRevenue": "$47 millones en taquilla."
+      "boxOfficeRevenue": "$34 millones USD en taquilla."
     }
   },
 {
@@ -102,7 +102,7 @@ export default [
       "duration": "1h 12m",
       "releaseYear": "1993",
       "genders": "Romance, Drama",
-      "boxOfficeRevenue": "$41 millones en taquilla."
+      "boxOfficeRevenue": "$41 millones USD en taquilla."
     }
   },
 {
@@ -115,7 +115,7 @@ export default [
       "duration": "1h 58m",
       "releaseYear": "1994",
       "genders": "Comedia, Fantasía, Aventura",
-      "boxOfficeRevenue": "$42 millones en taquilla."
+      "boxOfficeRevenue": "$22 millones USD en taquilla."
     }
   },
 {
@@ -128,7 +128,7 @@ export default [
       "duration": "1h 46m",
       "releaseYear": "1995",
       "genders": "Romance, Infantil",
-      "boxOfficeRevenue": "$51 millones en taquilla."
+      "boxOfficeRevenue": "$15 millones USD en taquilla."
     }
   },
 {
@@ -141,7 +141,7 @@ export default [
       "duration": "2h 13m",
       "releaseYear": "1997",
       "genders": "Fantasía, Aventura",
-      "boxOfficeRevenue": "$159 millones en taquilla."
+      "boxOfficeRevenue": "$159 millones USD en taquilla."
     }
   },
 {
@@ -154,7 +154,7 @@ export default [
       "duration": "1h 44m",
       "releaseYear": "1999",
       "genders": "Comedia, Infantil",
-      "boxOfficeRevenue": "$25 millones en taquilla."
+      "boxOfficeRevenue": "$20 millones USD en taquilla."
     }
   },
 {
@@ -167,20 +167,20 @@ export default [
       "duration": "2h 3m",
       "releaseYear": "2001",
       "genders": "Fantasía, Aventura",
-      "Recaudación": "$364 millones en taquilla."
+      "Recaudación": "$347 millones USD en taquilla."
     }
   },
 {
-    id: "haru-en-el-reino-de-los-gatos",
-    name: "Haru en el reino de los gatos",
+    id: "el-regreso-del-gato",
+    name: "El Regreso del Gato",
     shortDescription: "Encantadora historia sobre una joven que se encuentra en un mundo de gatos y descubre su valentía interior.",
-    description: "Haru en el reino de los gatos, dirigida por Hiroyuki Morita, es una encantadora historia que sigue a Haru, una joven que, después de salvar a un gato, se encuentra en un mundo habitado por gatos y descubre su valentía interior. La película mezcla elementos de fantasía y comedia para contar una historia única sobre el crecimiento personal y la autoaceptación.",
+    description: "El Regreso del Gato, dirigida por Hiroyuki Morita, es una encantadora historia que sigue a Haru, una joven que, después de salvar a un gato, se encuentra en un mundo habitado por gatos y descubre su valentía interior. La película mezcla elementos de fantasía y comedia para contar una historia única sobre el crecimiento personal y la autoaceptación.",
     imageUrl: "Imagenes/Haru-en-el-reino-de-los-Gatos.jpg",
     facts: {
       "duration": "1h 15m",
       "releaseYear": "2002",
       "genders": "Fantasía, Aventura",
-      "boxOfficeRevenue": "$55 millones en taquilla."
+      "boxOfficeRevenue": "$54 millones USD en taquilla."
     }
   },
 {
@@ -193,7 +193,7 @@ id: "el-castillo-ambulante",
       "duration": "1h 59m",
       "EreleaseYear": "2004",
       "genders": "Fantasía, Romance, Bélico",
-      "boxOfficeRevenue": "$236 millones en taquilla."
+      "boxOfficeRevenue": "$235 millones USD en taquilla."
     }
   },
 {
@@ -206,7 +206,7 @@ id: "el-castillo-ambulante",
       "duration": "1h 55m",
       "releaseYear": "2006",
       "genders": "Fantasía, Aventura",
-      "boxOfficeRevenue": "$68 millones en taquilla."
+      "boxOfficeRevenue": "$68 millones USD en taquilla."
     }
   },
 {
@@ -219,7 +219,7 @@ id: "el-castillo-ambulante",
       "duration": "1h 40m",
       "releaseYear": "2008",
       "genders": "Aventura, Fantasía",
-      "boxOfficeRevenue": "$203 millones en taquilla."
+      "boxOfficeRevenue": "$201 millones USD en taquilla."
     }
   },
 {
@@ -232,7 +232,7 @@ id: "el-castillo-ambulante",
       "duration": "1h 34m",
       "releaseYear": "2010",
       "genders": "Fantasía, Aventura",
-      "boxOfficeRevenue": "$145 millones en taquilla."
+      "boxOfficeRevenue": "$145 millones USD en taquilla."
     }
   },
 {
@@ -245,20 +245,20 @@ id: "el-castillo-ambulante",
       "duration": "1h 31m",
       "releaseYear": "2011",
       "genders": "Drama, Romance",
-      "Recaudación": "$61 millones en taquilla."
+      "Recaudación": "$61 millones USD en taquilla."
     }
   },
 {
-    id: "el-viento-se-levanta",
-    name: "El viento se levanta",
+    id: "se-levanta-el-viento",
+    name: "Se Levanta el Viento",
     shortDescription: "Drama animado que sigue la vida de Jiro Horikoshi, el diseñador de aviones japonés, durante la Segunda Guerra Mundial.",
-    description: "El viento se levanta, dirigida por Hayao Miyazaki, es un drama animado que sigue la vida de Jiro Horikoshi, el diseñador de aviones japonés, durante la Segunda Guerra Mundial. La película explora temas de pasión, creatividad y las complejidades morales en tiempos de conflicto.",
+    description: "Se levanta el viento, dirigida por Hayao Miyazaki, es un drama animado que sigue la vida de Jiro Horikoshi, el diseñador de aviones japonés, durante la Segunda Guerra Mundial. La película explora temas de pasión, creatividad y las complejidades morales en tiempos de conflicto.",
     imageUrl: "Imagenes/El-viento-se-levanta.jpg",
     facts: {
       "duration": "2h 6m",
       "releaseYear": "2013",
       "genders": "Bélico, Romance",
-      "Recaudación": "$136 millones en taquilla."
+      "Recaudación": "$136 millones USD en taquilla."
     }
   },
 {
@@ -271,7 +271,7 @@ id: "el-castillo-ambulante",
       "duration": "2h 17m",
       "releaseYear": "2013",
       "genders": "Drama, Fantasía",
-      "boxOfficeRevenue": "$25 millones en taquilla."
+      "boxOfficeRevenue": "$24 millones USD en taquilla."
     }
   },
 {
@@ -284,7 +284,7 @@ id: "el-castillo-ambulante",
       "duration": "1h 43m",
       "releaseYear": "2014",
       "genders": "Drama, Misterio, Suspenso",
-      "boxOfficeRevenue": "$36 millones en taquilla."
+      "boxOfficeRevenue": "$30 millones USD en taquilla."
     }
   },
 {
@@ -297,7 +297,7 @@ id: "el-castillo-ambulante",
       "duration": "1h 22m",
       "releaseYear": "2020",
       "genders": "Aventura, Fantasía",
-      "boxOfficeRevenue": "$20 millones en taquilla."
+      "boxOfficeRevenue": "$842 mil USD en taquilla."
     }
   },
 {
@@ -310,7 +310,7 @@ id: "el-castillo-ambulante",
     "duration": "2h 4m",
     "releaseYear": "2023",
     "genders": "Drama, Acción, Fantasía",
-    "boxOfficeRevenue": "$10 millones en taquilla."
+    "boxOfficeRevenue": "$155 millones USD en taquilla."
    }
  },
 ]}]; 
