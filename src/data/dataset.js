@@ -7,10 +7,10 @@ export default [
     description: "Nausicaä del Valle del Viento es una obra maestra de Hayao Miyazaki que sigue la historia de la princesa Nausicaä en un mundo postapocalíptico. Con temas de ecología y pacifismo, la película es una emotiva aventura que aborda la relación entre la humanidad y la naturaleza.",
     imageUrl: "Imagenes/Nausicaä-del-valle-del-viento.jpg",
     facts: {
-      "duration": "1h 57m",
-      "releaseYear": "1984",
-      "genders": "Fantasía, Ciencia Ficción",
-      "boxOfficeRevenue": "$10 millones USD en taquilla."
+      "Duración": "1h 57m",
+      "Estreno": "1984",
+      "Géneros": "Fantasía, Ciencia Ficción",
+      "Recaudación": "$10 millones en taquilla."
     }
   },
 {
@@ -20,10 +20,10 @@ export default [
     description: "El Castillo en el cielo, dirigida por Hayao Miyazaki, sigue las peripecias de Pazu y Sheeta en su búsqueda del legendario Castillo en el Cielo. La película combina acción, misterio y fantasía, ofreciendo una experiencia visualmente impactante y emocionante.",
     imageUrl: "Imagenes/El-castillo-en-el-cielo.jpg",
     facts: {
-      "duration": "2h 4m",
-      "releaseYear": "1986",
-      "genders": "Aventura, Fantasía",
-      "boxOfficeRevenue": "$15 millones USD en taquilla."
+      "Duración": "2h 4m",
+      "Estreno": "1986",
+      "Géneros": "Aventura, Fantasía",
+      "Recaudación": "$15 millones en taquilla."
     }
   },
 {
@@ -33,10 +33,10 @@ export default [
     description: "La Tumba de las Luciérnagas es una obra maestra dirigida por Isao Takahata que narra la conmovedora historia de Seita y Setsuko, dos hermanos tratando de sobrevivir en Japón durante la Segunda Guerra Mundial. La película aborda temas de pérdida, esperanza y la devastación de la guerra.",
     imageUrl: "Imagenes/La-tumba-de-las-luciernagas.jpg",
     facts: {
-      "duration": "2h 4m",
-      "releaseYear": "1988",
-      "genders": "Drama, Bélico, Terror",
-      "boxOfficeRevenue": "$14 millones USD en taquilla."
+      "Duración": "2h 4m",
+      "Estreno": "1988",
+      "Géneros": "Drama, Bélico, Terror",
+      "Recaudación": "$5 millones en taquilla."
     }
   },
 {
@@ -46,10 +46,10 @@ export default [
     description: "Mi Vecino Totoro, dirigida por Hayao Miyazaki, es una joya del Studio Ghibli que sigue la historia de dos hermanas, Satsuke y Mei, que se mudan a un nuevo hogar y descubren a criaturas mágicas en el bosque cercano. La película captura la inocencia de la infancia y la magia de la naturaleza, ofreciendo una experiencia cinematográfica única.",
     imageUrl: "Imagenes/Mi-vecino-Totoro.jpg",
     facts: {
-      "duration": "1h 26m",
-      "releaseYear": "1988",
-      "genders": "Familia, Fantasía, Aventura",
-      "boxOfficeRevenue": "$30 millones USD en taquilla."
+      "Duración": "1h 26m",
+      "Estreno": "1988",
+      "Géneros": "Familia, Fantasía, Aventura",
+      "Recaudación": "$41 millones en taquilla."
     }
   },
 {
@@ -59,10 +59,10 @@ export default [
     description: "Kiki, la aprendiz de bruja, dirigida por Hayao Miyazaki, sigue la historia de Kiki, una joven bruja que emprende un viaje para encontrar su lugar en el mundo. La película destaca la autoexploración, la amistad y la superación de los desafíos. Una experiencia mágica que ha cautivado a audiencias de todas las edades.",
     imageUrl: "Imagenes/Kiki:-entregas-a-domicilio.jpg",
     facts: {
-      "duration": "1h 42m",
-      "releaseYear": "1989",
-      "genders": "Aventura, Fantasía",
-      "boxOfficeRevenue": "$18 millones USD en taquilla."
+      "Duración": "1h 42m",
+      "Estreno": "1989",
+      "Géneros": "Aventura, Fantasía",
+      "Recaudación": "$43 millones en taquilla."
     }
   },
 {
@@ -72,10 +72,10 @@ export default [
     description: "Recuerdos del Ayer, dirigida por Isao Takahata, relata la conmovedora historia de Taeko, una mujer que, durante un viaje, redescubre su infancia a través de recuerdos nostálgicos. La película aborda temas de identidad, amor y el impacto duradero de la infancia en la vida adulta.",
     imageUrl: "Imagenes/Recuerdos-del-ayer.jpg",
     facts: {
-      "duration": "1h 58m",
-      "releaseYear": "1991",
-      "genders": "Drama, Romance",
-      "boxOfficeRevenue": "$525 mil USD en taquilla."
+      "Duración": "1h 58m",
+      "Estreno": "1991",
+      "Géneros": "Drama, Romance",
+      "Recaudación": "$45 millones en taquilla."
     }
   },
 {
@@ -85,10 +85,10 @@ export default [
     description: "Porco Rosso, dirigida por Hayao Miyazaki, es una aventura fascinante que sigue a Marco Pagot, un piloto italiano que, tras una misteriosa transformación en cerdo antropomórfico, lucha contra piratas aéreos en el Mar Adriático. La película aborda temas de identidad, valentía y la belleza del vuelo.",
     imageUrl: "Imagenes/Porco-Rosso.jpg",
     facts: {
-      "duration": "1h 42m",
-      "releaseYear": "1992",
-      "genders": "Aventura, Fantasía",
-      "boxOfficeRevenue": "$34 millones USD en taquilla."
+      "Duración": "1h 42m",
+      "Estreno": "1992",
+      "Géneros": "Aventura, Fantasía",
+      "Recaudación": "$47 millones en taquilla."
     }
   },
 {
@@ -98,10 +98,10 @@ export default [
     description: "Puedo escuchar el mar, dirigida por Tomomi Mochizuki, es una romántica historia que sigue a dos estudiantes, Shizuku y Haru, mientras exploran la complejidad de sus emociones y relaciones. La película aborda temas de amor, autodescubrimiento y la importancia de la conexión emocional.",
     imageUrl: "Imagenes/Puedo-escuchar-el-mar.jpg",
     facts: {
-      "duration": "1h 12m",
-      "releaseYear": "1993",
-      "genders": "Romance, Drama",
-      "boxOfficeRevenue": "$41 millones USD en taquilla."
+      "Duración": "1h 12m",
+      "Estreno": "1993",
+      "Géneros": "Romance, Drama",
+      "Recaudación": "$41 millones en taquilla."
     }
   },
 {
@@ -111,10 +111,10 @@ export default [
     description: "Pompoko, dirigida por Isao Takahata, es una comedia dramática que sigue a un grupo de tanukis (criaturas mitológicas japonesas) luchando contra la destrucción de su hábitat por parte de los humanos. La película aborda temas de conservación, cambio ambiental y la relación entre la naturaleza y la sociedad.",
     imageUrl: "Imagenes/Pompoko.jpg",
     facts: {
-      "duration": "1h 58m",
-      "releaseYear": "1994",
-      "genders": "Comedia, Fantasía, Aventura",
-      "boxOfficeRevenue": "$22 millones USD en taquilla."
+      "Duración": "1h 58m",
+      "Estreno": "1994",
+      "Géneros": "Comedia, Fantasía, Aventura",
+      "Recaudación": "$42 millones en taquilla."
     }
   },
 {
@@ -124,10 +124,10 @@ export default [
     description: "Susurros del Corazón, dirigida por Yoshifumi Kondō, es una encantadora historia que sigue a Shizuku, una joven que descubre su pasión por la escritura y la creatividad mientras se embarca en un viaje de autodescubrimiento. La película celebra la importancia de seguir los sueños y la búsqueda de la propia identidad.",
     imageUrl: "Imagenes/Susurros-del-Corazon.jpg",
     facts: {
-      "duration": "1h 46m",
-      "releaseYear": "1995",
-      "genders": "Romance, Infantil",
-      "boxOfficeRevenue": "$15 millones USD en taquilla."
+      "Duración": "1h 46m",
+      "Estreno": "1995",
+      "Géneros": "Romance, Infantil",
+      "Recaudación": "$51 millones en taquilla."
     }
   },
 {
@@ -137,10 +137,10 @@ export default [
     description: "La princesa Mononoke, dirigida por Hayao Miyazaki, es una épica aventura que sigue la lucha entre los dioses del bosque y los humanos en busca de recursos. La película explora temas de coexistencia, equilibrio ambiental y la complejidad de las relaciones entre la naturaleza y la humanidad.",
     imageUrl: "Imagenes/La-princesa-Mononoke.jpg",
     facts: {
-      "duration": "2h 13m",
-      "releaseYear": "1997",
-      "genders": "Fantasía, Aventura",
-      "boxOfficeRevenue": "$159 millones USD en taquilla."
+      "Duración": "2h 13m",
+      "Estreno": "1997",
+      "Géneros": "Fantasía, Aventura",
+      "Recaudación": "$159 millones en taquilla."
     }
   },
 {
@@ -150,10 +150,10 @@ export default [
     description: "Mis vecinos Los Yamada, dirigida por Isao Takahata, es una comedia familiar que presenta la vida cotidiana de una peculiar familia japonesa. La película utiliza un estilo de animación único para capturar los momentos divertidos y conmovedores de la vida diaria, mostrando la belleza en lo ordinario.",
     imageUrl: "Imagenes/Mis-Vecinos-Los-Yamada.jpg",
     facts: {
-      "duration": "1h 44m",
-      "releaseYear": "1999",
-      "genders": "Comedia, Infantil",
-      "boxOfficeRevenue": "$20 millones USD en taquilla."
+      "Duración": "1h 44m",
+      "Estreno": "1999",
+      "Géneros": "Comedia, Infantil",
+      "Recaudación": "$25 millones en taquilla."
     }
   },
 {
@@ -163,10 +163,10 @@ export default [
     description: "El viaje de Chihiro, dirigida por Hayao Miyazaki, es una mágica aventura que sigue a Chihiro, una niña que queda atrapada en un mundo misterioso lleno de seres fantásticos. La película explora temas de valentía, amistad y autodescubrimiento mientras Chihiro lucha por salvar a sus padres y encontrar su camino de regreso a casa.",
     imageUrl: "Imagenes/El-viaje-de-Chihiro.jpg",
     facts: {
-      "duration": "2h 3m",
-      "releaseYear": "2001",
-      "genders": "Fantasía, Aventura",
-      "Recaudación": "$347 millones USD en taquilla."
+      "Duración": "2h 3m",
+      "Estreno": "2001",
+      "Géneros": "Fantasía, Aventura",
+      "Recaudación": "$364 millones en taquilla."
     }
   },
 {
@@ -176,10 +176,10 @@ export default [
     description: "El Regreso del Gato, dirigida por Hiroyuki Morita, es una encantadora historia que sigue a Haru, una joven que, después de salvar a un gato, se encuentra en un mundo habitado por gatos y descubre su valentía interior. La película mezcla elementos de fantasía y comedia para contar una historia única sobre el crecimiento personal y la autoaceptación.",
     imageUrl: "Imagenes/Haru-en-el-reino-de-los-Gatos.jpg",
     facts: {
-      "duration": "1h 15m",
-      "releaseYear": "2002",
-      "genders": "Fantasía, Aventura",
-      "boxOfficeRevenue": "$54 millones USD en taquilla."
+      "Duración": "1h 15m",
+      "Estreno": "2002",
+      "Géneros": "Fantasía, Aventura",
+      "Recaudación": "$55 millones en taquilla."
     }
   },
 {
@@ -189,10 +189,10 @@ id: "el-castillo-ambulante",
     description: "El Castillo Ambulante, dirigida por Hayao Miyazaki, es una aventura mágica que sigue a Sophie, una joven que, tras ser maldecida y transformada en una anciana, busca la ayuda de un mago en un castillo ambulante. La película aborda temas de autoaceptación, amor y la magia que se encuentra en lo inesperado.",
     imageUrl: "Imagenes/El-castillo-ambulante.jpg",
     facts: {
-      "duration": "1h 59m",
-      "EreleaseYear": "2004",
-      "genders": "Fantasía, Romance, Bélico",
-      "boxOfficeRevenue": "$235 millones USD en taquilla."
+      "Duración": "1h 59m",
+      "Estrenos": "2004",
+      "Género": "Fantasía, Romance, Bélico",
+      "Recaudación": "$236 millones en taquilla."
     }
   },
 {
@@ -202,10 +202,10 @@ id: "el-castillo-ambulante",
     description: "Cuentos de Terramar, dirigida por Gorō Miyazaki, es una fantástica historia que sigue a Arren, un joven príncipe, en su viaje para restaurar el equilibrio en el mundo. La película, basada en la serie de libros de Ursula K. Le Guin, aborda temas de autodescubrimiento, responsabilidad y la conexión entre la humanidad y la naturaleza.",
     imageUrl: "Imagenes/Cuentos-de-Terramar.jpg",
     facts: {
-      "duration": "1h 55m",
-      "releaseYear": "2006",
-      "genders": "Fantasía, Aventura",
-      "boxOfficeRevenue": "$68 millones USD en taquilla."
+      "Duración": "1h 55m",
+      "Estreno": "2006",
+      "Géneros": "Fantasía, Aventura",
+      "Recaudación": "$68 millones en taquilla."
     }
   },
 {
@@ -215,10 +215,10 @@ id: "el-castillo-ambulante",
     description: "Ponyo en el acantilado, dirigida por Hayao Miyazaki, es una encantadora historia que sigue la amistad entre Sosuke, un niño, y Ponyo, un pez dorado con el deseo de convertirse en humana. La película celebra la imaginación, la conexión con la naturaleza y la pureza de la infancia.",
     imageUrl: "Imagenes/Ponyo.jpg",
     facts: {
-      "duration": "1h 40m",
-      "releaseYear": "2008",
-      "genders": "Aventura, Fantasía",
-      "boxOfficeRevenue": "$201 millones USD en taquilla."
+      "Duración": "1h 40m",
+      "Estreno": "2008",
+      "Géneros": "Aventura, Fantasía",
+      "Recaudación": "$203 millones en taquilla."
     }
   },
 {
@@ -228,10 +228,10 @@ id: "el-castillo-ambulante",
     description: "Arrietty y el Mundo de los Diminutos, dirigida por Hiromasa Yonebayashi, es una adorable historia que sigue a una familia de diminutos seres, los Diminutos, que viven bajo el suelo de una casa humana. La película explora la conexión entre los mundos de los humanos y los diminutos, destacando la importancia de la empatía y la comprensión mutua.",
     imageUrl: "Imagenes/Arrietty-y-el-mundo-de-los-diminutos.jpg",
     facts: {
-      "duration": "1h 34m",
-      "releaseYear": "2010",
-      "genders": "Fantasía, Aventura",
-      "boxOfficeRevenue": "$145 millones USD en taquilla."
+      "Duración": "1h 34m",
+      "Estreno": "2010",
+      "Géneros": "Fantasía, Aventura",
+      "Recaudación": "$145 millones en taquilla."
     }
   },
 {
@@ -241,10 +241,10 @@ id: "el-castillo-ambulante",
     description: "La colina de las amapolas, dirigida por Goro Miyazaki, es una conmovedora historia que sigue a Umi y Shun, dos jóvenes que luchan por proteger su hogar y superar la adversidad mientras descubren secretos sobre su pasado. La película aborda temas de amor, identidad y la importancia de la memoria.",
     imageUrl: "Imagenes/La-colina-de-las-Amapolas.jpg",
     facts: {
-      "duration": "1h 31m",
-      "releaseYear": "2011",
-      "genders": "Drama, Romance",
-      "Recaudación": "$61 millones USD en taquilla."
+      "Duración": "1h 31m",
+      "Estreno": "2011",
+      "Géneros": "Drama, Romance",
+      "Recaudación": "$61 millones en taquilla."
     }
   },
 {
@@ -254,10 +254,10 @@ id: "el-castillo-ambulante",
     description: "Se levanta el viento, dirigida por Hayao Miyazaki, es un drama animado que sigue la vida de Jiro Horikoshi, el diseñador de aviones japonés, durante la Segunda Guerra Mundial. La película explora temas de pasión, creatividad y las complejidades morales en tiempos de conflicto.",
     imageUrl: "Imagenes/El-viento-se-levanta.jpg",
     facts: {
-      "duration": "2h 6m",
-      "releaseYear": "2013",
-      "genders": "Bélico, Romance",
-      "Recaudación": "$136 millones USD en taquilla."
+      "Duración": "2h 6m",
+      "Estreno": "2013",
+      "Géneros": "Bélico, Romance",
+      "Recaudación": "$136 millones en taquilla."
     }
   },
 {
@@ -267,10 +267,10 @@ id: "el-castillo-ambulante",
     description: "El cuento de la princesa Kaguya, dirigida por Isao Takahata, es una emotiva historia que sigue el viaje de Kaguya-hime, una princesa misteriosa enviada desde la Luna, en busca de la verdadera felicidad. La película utiliza un estilo artístico único y aborda temas de identidad, amor y la efímera naturaleza de la vida.",
     imageUrl: "Imagenes/El-cuento-de-la-princesa-Kaguya.jpg",
     facts: {
-      "duration": "2h 17m",
-      "releaseYear": "2013",
-      "genders": "Drama, Fantasía",
-      "boxOfficeRevenue": "$24 millones USD en taquilla."
+      "Duración": "2h 17m",
+      "Estreno": "2013",
+      "Géneros": "Drama, Fantasía",
+      "Recaudación": "$25 millones en taquilla."
     }
   },
 {
@@ -280,10 +280,10 @@ id: "el-castillo-ambulante",
     description: "El recuerdo de Marnie, dirigida por Hiromasa Yonebayashi, es una emotiva historia que sigue a Anna, una joven solitaria que descubre la amistad y los secretos de una misteriosa chica llamada Marnie. La película aborda temas de soledad, aceptación y la conexión especial que se forma entre almas afines.",
     imageUrl: "Imagenes/El-recuerdo-de-Marnie.jpg",
     facts: {
-      "duration": "1h 43m",
-      "releaseYear": "2014",
-      "genders": "Drama, Misterio, Suspenso",
-      "boxOfficeRevenue": "$30 millones USD en taquilla."
+      "Duración": "1h 43m",
+      "Estreno": "2014",
+      "Géneros": "Drama, Misterio, Suspenso",
+      "Recaudación": "$36 millones en taquilla."
     }
   },
 {
@@ -293,10 +293,10 @@ id: "el-castillo-ambulante",
     description: "Earwig y la bruja, dirigida por Goro Miyazaki, es una aventura animada que sigue a Earwig, una niña astuta, mientras se enfrenta a una bruja y descubre su propio poder. La película, basada en la novela de Diana Wynne Jones, aborda temas de ingenio, valentía y el poder de la autodeterminación.",
     imageUrl: "Imagenes/Earwig-y-la-bruja.jpg",
     facts: {
-      "duration": "1h 22m",
-      "releaseYear": "2020",
-      "genders": "Aventura, Fantasía",
-      "boxOfficeRevenue": "$842 mil USD en taquilla."
+      "Duración": "1h 22m",
+      "Estreno": "2020",
+      "Géneros": "Aventura, Fantasía",
+      "Recaudación": "$20 millones en taquilla."
     }
   },
 {
@@ -306,10 +306,10 @@ id: "el-castillo-ambulante",
   description: "El niño y la garza es una película de animación de 2023 escrita y dirigida por Hayao Miyazaki, con producción de Studio Ghibli. Basada en la novela homónima de 1937 de Yoshino Genzaburō, la película presenta una historia original no relacionada con la novela. Miyazaki la considera su película más simbólica y personal, explorando su propia vida. Se estrenó el 14 de julio de 2023 en Japón y ha sido aclamada por la crítica.",
   imageUrl: "Imagenes/El-niño-y-la-garza.jpg",
   facts: {
-    "duration": "2h 4m",
-    "releaseYear": "2023",
-    "genders": "Drama, Acción, Fantasía",
-    "boxOfficeRevenue": "$155 millones USD en taquilla."
-   }
- },
-]; 
+    "Duración": "2h 4m",
+    "Estreno": "2023",
+    "Géneros": "Drama, Acción, Fantasía",
+    "Recaudación": "$137 millones en taquilla."
+  }
+ }
+];
