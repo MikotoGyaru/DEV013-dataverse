@@ -17,8 +17,8 @@
   <h2>Peliculas de Studio Ghibli</h2>
 </main>
 
-<label for="">Filter By:</label>
-<select data-testid="select-filter" name="genders">Genders</select>;
+<label for="filter">Filter By:</label>
+<select data-testid="select-filter" name="genders" id="filter">Genders</select>;
 <option value="Romance">Romance</option>;
 <option value="Fantasía">Fantasía</option>;
 <option value="Ciencia Ficción">Ciencia Ficción</option>;
@@ -37,9 +37,9 @@
 <option value="desc">Z-A</option>;
     <div id = "root">
       <ul>
-        <li>
+        <li><!--dl=ul dt/dd=li-->
           <dl itemscope itemtype="nausicaa-del-valle-del-viento"></dl>
-            <img src="Imagenes/Nausicaä-del-valle-del-viento.jpg" alt="La portada de la película Nausicaä del Valle del Viento muestra a Nausicaä de pie, contemplando su tierra mientras a su lado se encuentra un insecto de tipo Ohm"/>;
+            <img src="Imagenes/Nausicaä-del-valle-del-viento.jpg" alt="Se muestra a Nausicaä de pie, contemplando su tierra mientras a su lado se encuentra un insecto de tipo Ohm"/>;
             <dt>Nombre: </dt><dd itemprop="name">Nausicaä del Valle del Viento</dd>
             <dt>Descripción breve: </dt><dd itemprop="shortDescription">Épica historia sobre la princesa Nausicaä y su lucha por salvar su tierra de la contaminación y la guerra.</dd>
             <dt>Descripción: </dt><dd itemprop="description">Nausicaä del Valle del Viento es una obra maestra de Hayao Miyazaki que sigue la historia de la princesa Nausicaä en un mundo postapocalíptico. Con temas de ecología y pacifismo, la película es una emotiva aventura que aborda la relación entre la humanidad y la naturaleza.</dd>
@@ -50,7 +50,7 @@
         </li>
         <li>
           <dl itemscope itemtype="el-castillo-en-el-cielo">
-            <img src="Imagenes/El-castillo-en-el-cielo.jpg" alt="En la portada de la película El Castillo en el Cielo, se visualiza la imponente estructura suspendida sobre las nube.">
+            <img src="Imagenes/El-castillo-en-el-cielo.jpg" alt="Se visualiza la imponente estructura del Castillo suspendida sobre las nube.">
             <dt>Nombre: </dt><dd itemprop="name">El Castillo en el cielo</dd>
             <dt>Descripción breve: </dt><dd itemprop="shortDescription">Aventura emocionante de un joven y una niña en busca de un legendario castillo flotante.</dd>
             <dt>Descripción: </dt><dd itemprop="description">El Castillo en el cielo, dirigida por Hayao Miyazaki, sigue las peripecias de Pazu y Sheeta en su búsqueda del legendario Castillo en el Cielo. La película combina acción, misterio y fantasía, ofreciendo una experiencia visualmente impactante y emocionante.</dd>
@@ -61,7 +61,7 @@
         </li>
         <li>
           <dl itemscope itemtype="la-tumba-de-las-luciernagas"></dl>
-            <img src="Imagenes/La-tumba-de-las-luciernagas.jpg" alt="Portada de la pelicula, aparece el personaje principal (Seita) llevando en su espalda a su hermana menor (Setsuko), el cielo esta oscuro y hay un avion de guerra.">;
+            <img src="Imagenes/La-tumba-de-las-luciernagas.jpg" alt="Portada de la película, aparece el personaje principal (Seita) llevando en su espalda a su hermana menor (Setsuko), el cielo esta oscuro y hay un avion de guerra.">;
             <dt>Nombre: </dt><dd itemprop="name">La Tumba de las Luciérnagas</dd>
             <dt>Descripción breve: </dt><dd itemprop="shortDescription">Conmovedora historia sobre dos hermanos tratando de sobrevivir en Japón durante la Segunda Guerra Mundial.</dd>
             <dt>Descripción: </dt><dd itemprop="description">La Tumba de las Luciérnagas es una obra maestra dirigida por Isao Takahata que narra la conmovedora historia de Seita y Setsuko, dos hermanos tratando de sobrevivir en Japón durante la Segunda Guerra Mundial. La película aborda temas de pérdida, esperanza y la devastación de la guerra.</dd>
@@ -72,7 +72,7 @@
         </li>
         <li>
           <dl itemscope itemtype="mi-vecino-totoro"></dl>
-            <img src="Imagenes/Mi-vecino-totoro.png" alt="En la portada de la película, se presenta al personaje principal, Seita, llevando en su espalda a su hermana menor, Setsuko. El cielo luce sombrío y se vislumbra la presencia de un avión de guerra"/>; 
+            <img src="Imagenes/Mi-vecino-totoro.png" alt="Se encuentran Totoro, el espíritu del bosque, junto a Satsuki en una parada de autobús bajo la lluvia. Totoro se cubre con una hoja, mientras que Satsuki utiliza un paraguas."/>; 
             <dt>Nombre: </dt><dd itemprop="name">Mi Vecino Totoro</dd>
             <dt>Descripción breve: </dt><dd itemprop="shortDescription">Encantadora película de animación sobre dos hermanas que descubren criaturas mágicas en su nuevo hogar.</dd>
             <dt>Descripción: </dt><dd itemprop="description">Mi Vecino Totoro, dirigida por Hayao Miyazaki, es una joya del Studio Ghibli que sigue la historia de dos hermanas, Satsuke y Mei, que se mudan a un nuevo hogar y descubren a criaturas mágicas en el bosque cercano. La película captura la inocencia de la infancia y la magia de la naturaleza, ofreciendo una experiencia cinematográfica única.</dd>
@@ -94,7 +94,7 @@
         </li>
         <li>
           <dl itemscope itemtype="recuerdos-del-ayer"></dl>
-            <img src="Imagenes/Recuerdos-del-ayer.webp" alt="En la portada de la película Recuerdos del Ayer, se muestra a la protagonista, Taeko Okajima, en sus versiones adulta e infantil, tomadas de la mano en el aula de clases.">
+            <img src="Imagenes/Recuerdos-del-ayer.webp" alt="Se muestra a la protagonista, Taeko Okajima, en sus versiones adulta e infantil, tomadas de la mano en el aula de clases.">
             <dt>Nombre: </dt><dd itemprop="name">Recuerdos del Ayer</dd>
             <dt>Descripción breve: </dt><dd itemprop="shortDescription">Emotiva historia que sigue a una joven que redescubre su infancia a través de recuerdos nostálgicos.</dd>
             <dt>Descripción: </dt><dd itemprop="description">Recuerdos del Ayer, dirigida por Isao Takahata, relata la conmovedora historia de Taeko, una mujer que, durante un viaje, redescubre su infancia a través de recuerdos nostálgicos. La película aborda temas de identidad, amor y el impacto duradero de la infancia en la vida adulta.</dd>
@@ -127,7 +127,7 @@
         </li>
         <li>
           <dl itemscope itemtype="pompoko"></dl>
-            <img src="Imagenes/Pompoko.webp" alt="En la portada de la película Pompoko, se presenta a toda la familia de los tanuki, una raza de perros japoneses parecidos a los mapaches. Se encuentran bajo un cielo estrellado, con la luna resplandeciendo detrás de ellos.">
+            <img src="Imagenes/Pompoko.webp" alt="Se presenta a toda la familia de los tanuki, una raza de perros japoneses parecidos a los mapaches. Se encuentran bajo un cielo estrellado, con la luna resplandeciendo detrás de ellos.">
             <dt>Nombre: </dt><dd itemprop="name">Pompoko</dd>
             <dt>Descripción breve: </dt><dd itemprop="shortDescription">Comedia dramática que sigue a un grupo de tanukis luchando contra la destrucción de su hábitat por parte de los humanos.</dd>
             <dt>Descripción: </dt><dd itemprop="description">Pompoko, dirigida por Isao Takahata, es una comedia dramática que sigue a un grupo de tanukis (criaturas mitológicas japonesas) luchando contra la destrucción de su hábitat por parte de los humanos. La película aborda temas de conservación, cambio ambiental y la relación entre la naturaleza y la sociedad.</dd>
@@ -138,7 +138,7 @@
         </li>
         <li>
           <dl itemscope itemtype="susurros-del-corazon"></dl>
-            <img src="Imagenes/Susurros-del-corazón.webp" alt="En la portada de la película Susurros del corazón, se muestra a Shizuku, la protagonista, tomada de la mano de El Barón, un gato vestido con traje y bastón.">
+            <img src="Imagenes/Susurros-del-corazón.webp" alt="Se muestra a Shizuku, la protagonista, tomada de la mano de El Barón, un gato vestido con traje y bastón.">
             <dt>Nombre: </dt><dd itemprop="name">Susurros del Corazón</dd>
             <dt>Descripción breve: </dt><dd itemprop="shortDescription">Encantadora historia que sigue a una joven que descubre su pasión por la escritura y la creatividad.</dd>
             <dt>Descripción: </dt><dd itemprop="description">Susurros del Corazón, dirigida por Yoshifumi Kondō, es una encantadora historia que sigue a Shizuku, una joven que descubre su pasión por la escritura y la creatividad mientras se embarca en un viaje de autodescubrimiento. La película celebra la importancia de seguir los sueños y la búsqueda de la propia identidad.</dd>
@@ -149,7 +149,7 @@
         </li>
         <li>
           <dl itemscope itemtype="la-princesa-mononoke"></dl>
-            <img src="Imagenes/La-princesa-Mononoke.webp" alt="">
+            <img src="Imagenes/La-princesa-Mononoke.webp" alt="Se presenta a la princesa junto a Moro, la diosa lobo del bosque.">
             <dt>Nombre: </dt><dd itemprop="name">La princesa Mononoke</dd>
             <dt>Descripción breve: </dt><dd itemprop="shortDescription">Épica aventura que sigue la lucha entre los dioses del bosque y los humanos en busca de recursos.</dd>
             <dt>Descripción: </dt><dd itemprop="description">La princesa Mononoke, dirigida por Hayao Miyazaki, es una épica aventura que sigue la lucha entre los dioses del bosque y los humanos en busca de recursos. La película explora temas de coexistencia, equilibrio ambiental y la complejidad de las relaciones entre la naturaleza y la humanidad.</dd>
@@ -160,7 +160,7 @@
         </li>
         <li>
           <dl itemscope itemtype="mis-vecinos-los-yamada"></dl>
-            <img src="Imagenes/Mis-vecinos-los-Yamada.jpg" alt="">
+            <img src="Imagenes/Mis-vecinos-los-Yamada.jpg" alt="Se destaca a la familia Yamada reunida en la sala de su hogar.">
             <dt>Nombre: </dt><dd itemprop="name">Mis vecinos Los Yamada</dd>
             <dt>Descripción breve: </dt><dd itemprop="shortDescription">Comedia familiar que presenta la vida cotidiana de una peculiar familia japonesa.</dd>
             <dt>Descripción: </dt><dd itemprop="description">Mis vecinos Los Yamada, dirigida por Isao Takahata, es una comedia familiar que presenta la vida cotidiana de una peculiar familia japonesa. La película utiliza un estilo de animación único para capturar los momentos divertidos y conmovedores de la vida diaria, mostrando la belleza en lo ordinario.</dd>
@@ -171,7 +171,7 @@
         </li>
         <li>
           <dl itemscope itemtype="el-viaje-de-chihiro"></dl>
-            <img src="Imagenes/El-viaje-de-Chihiro.png" alt="">
+            <img src="Imagenes/El-viaje-de-Chihiro.png" alt="Se observa a Chihiro mirando hacia atrás, con edificios iluminados y llenos de color frente a ella.">
             <dt>Nombre: </dt><dd itemprop="name">El viaje de Chihiro</dd>
             <dt>Descripción breve: </dt><dd itemprop="shortDescription">Mágica aventura que sigue a una niña atrapada en un mundo misterioso y su viaje para salvar a sus padres.</dd>
             <dt>Descripción: </dt><dd itemprop="description">El viaje de Chihiro, dirigida por Hayao Miyazaki, es una mágica aventura que sigue a Chihiro, una niña que queda atrapada en un mundo misterioso lleno de seres fantásticos. La película explora temas de valentía, amistad y autodescubrimiento mientras Chihiro lucha por salvar a sus padres y encontrar su camino de regreso a casa.</dd>
@@ -182,7 +182,7 @@
         </li>
         <li>
           <dl itemscope itemtype="haru-en-el-reino-de-los-gatos"></dl>
-            <img src="Imagenes/haru-en-el-reino-de-los-gatos.jpg" alt="">
+            <img src="Imagenes/haru-en-el-reino-de-los-gatos.jpg" alt="Se muestra cómo El Barón (gato) trata de proteger a Haru, colocándola detrás de él.">
             <dt>Nombre: </dt><dd itemprop="name">Haru en el reino de los gatos</dd>
             <dt>Descripción breve: </dt><dd itemprop="shortDescription">Encantadora historia sobre una joven que se encuentra en un mundo de gatos y descubre su valentía interior.</dd>
             <dt>Descripción: </dt><dd itemprop="description">Haru en el reino de los gatos, dirigida por Hiroyuki Morita, es una encantadora historia que sigue a Haru, una joven que, después de salvar a un gato, se encuentra en un mundo habitado por gatos y descubre su valentía interior. La película mezcla elementos de fantasía y comedia para contar una historia única sobre el crecimiento personal y la autoaceptación.</dd>
@@ -193,7 +193,7 @@
         </li>
         <li>
           <dl itemscope itemtype="el-castillo-ambulante"></dl>
-            <img src="Imagenes/El-castillo-ambulante.jpg" alt="">
+            <img src="Imagenes/El-castillo-ambulante.jpg" alt="Sophie aparece junto a Cabeza de Nabo, Markl y Heen, con el Castillo Ambulante al fondo">
             <dt>Nombre: </dt><dd itemprop="name">El Castillo Ambulante</dd>
             <dt>Descripción breve: </dt><dd itemprop="shortDescription">Aventura mágica que sigue a una joven que, tras ser maldecida, busca la ayuda de un mago en un castillo ambulante.</dd>
             <dt>Descripción: </dt><dd itemprop="description">El Castillo Ambulante, dirigida por Hayao Miyazaki, es una aventura mágica que sigue a Sophie, una joven que, tras ser maldecida y transformada en una anciana, busca la ayuda de un mago en un castillo ambulante. La película aborda temas de autoaceptación, amor y la magia que se encuentra en lo inesperado.</dd>
@@ -204,7 +204,7 @@
         </li>
         <li>
           <dl itemscope itemtype="cuentos-de-terramar"></dl>
-            <img src="Imagenes/Cuentos-de-Terramar.jpg" alt="">
+            <img src="Imagenes/Cuentos-de-Terramar.jpg" alt="Se muestra a Arren extendiendo sus brazos hacia un dragón que yace en el pasto.">
             <dt>Nombre: </dt><dd itemprop="name">Cuentos de Terramar</dd>
             <dt>Descripción breve: </dt><dd itemprop="shortDescription">Fantástica historia que sigue a un joven príncipe en su viaje para restaurar el equilibrio en el mundo.</dd>
             <dt>Descripción: </dt><dd itemprop="description">Cuentos de Terramar, dirigida por Gorō Miyazaki, es una fantástica historia que sigue a Arren, un joven príncipe, en su viaje para restaurar el equilibrio en el mundo. La película, basada en la serie de libros de Ursula K. Le Guin, aborda temas de autodescubrimiento, responsabilidad y la conexión entre la humanidad y la naturaleza.</dd>
@@ -215,7 +215,7 @@
         </li>
         <li>
           <dl itemscope itemtype="ponyo-y-el-secreto-de-la-sirenita"></dl>
-            <img src="Imagenes/Ponyo.jpg" alt="">
+            <img src="Imagenes/Ponyo.jpg" alt="Ponyo aparece en su forma de sirena bajo una manta de agua.">
             <dt>Nombre: </dt><dd itemprop="name">Ponyo y el secreto de la sirenita</dd>
             <dt>Descripción breve: </dt><dd itemprop="shortDescription">Encantadora historia sobre la amistad entre un niño y un pez dorado que desea convertirse en humana.</dd>
             <dt>Descripción: </dt><dd itemprop="description">Ponyo y el secreto de la sirenita, dirigida por Hayao Miyazaki, es una encantadora historia que sigue la amistad entre Sosuke, un niño, y Ponyo, un pez dorado con el deseo de convertirse en humana. La película celebra la imaginación, la conexión con la naturaleza y la pureza de la infancia.</dd>
