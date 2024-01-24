@@ -1,6 +1,5 @@
 export default [
-  {
-  const peliculasGhibli = [
+  
   {
     id: "nausicaa-del-valle-del-viento",
     name: "Nausicaä del Valle del Viento",
@@ -313,4 +312,4 @@ id: "el-castillo-ambulante",
     "boxOfficeRevenue": "$155 millones USD en taquilla."
    }
  },
-]}]; 
+]; 
