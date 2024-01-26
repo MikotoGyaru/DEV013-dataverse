@@ -1,0 +1,27 @@
+:root {
+    --soft-blue: #48AEF0;
+    --sky-blue: #B6DFF9;
+    --white: #FFFFFF;
+    --soft-grey: #F9F8F8;
+    --black: #000000;
+};
+
+* {
+    /*background-color: var(--sky-blue);*/
+    
+}
+body {
+    background-color: #B6DFF9;
+    font-family: "Average Sans", "Cabin Condensed"
+}
+img {
+    width: 560%;
+    height: 370%;
+}
+h1 {
+    color: var(--black);
+    /*background-color: var(--soft-blue);*/
+    font-family: Average Sans;
+    
+
+}
