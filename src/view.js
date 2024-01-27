@@ -10,10 +10,10 @@ export const renderItems = (data) => {
     <li>Nombre: </li><li itemprop="name">${film.name}</li>
     <li>Descripción breve: </li><li itemprop="shortDescription">${film.shortDescription}</li>
     <li>Descripción: </li><li itemprop="description">${film.description}</li>
-    <li>Duración: </li><li itemprop="duration">${film.duration}</li>
-    <li>Estreno: </li><li itemprop="eleaseYear"li>${film.eleaseYear}</li>
-    <li>Género: </li><li itemprop="genres">${film.genres}</li>
-    <li>Recaudación: </li><li itemprop="boxOfficeRevenue">${film.boxOfficeRevenue}</li>
+    <li>Duración: </li><li itemprop="duration">${film.facts["duration"]}</li>
+    <li>Estreno: </li><li itemprop="eleaseYear"li>${film.facts["releaseYear"]}</li>
+    <li>Género: </li><li itemprop="genders">${film.facts["genders"]}</li>
+    <li>Recaudación: </li><li itemprop="boxOfficeRevenue">${film.facts["boxOfficeRevenue"]}</li>
     `
     list.appendChild(card);
   });
