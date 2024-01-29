@@ -3,21 +3,23 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Average&family=Cabin+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Average&family=Cabin+Condensed&display=swap" rel="stylesheet">
     <title>Ghibli Lovers</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <script src="main.js" type="module"></script>
     <header>
       <img src="Imagenes/Totoro-png.png" alt="Dibujo del contorno de totoro, similar al logo de Studio Ghibli">
       <h1>スタジオジブリ <br>
         STUDIO GHIBLI</h1>
     </header>
 <main>
+  <input type="text" class="movieSearch" placeholder="Buscar">
   <h2>Peliculas de Studio Ghibli</h2>
 </main>
 
-<label for="filter">Filter By: </label>
+<label for="filter">Filtrar por: </label>
 <select data-testid="select-filter" name="genders" id="filter"> 
   <option value="Genders">Géneros</option>
   <option value="Romance">Romance</option>
@@ -33,16 +35,17 @@
   <option value="Aventura">Aventura</option>
 </select>
 
-
-<label for="">Sort By:</label>
+<label for="">Ordenar: </label>
 <select data-testid="select-filter" name="name">
   <option value="asc">A-Z</option>
   <option value="desc">Z-A</option>
 </select>
 
-<div id = "root"></div>
+<button class="cleanerButton" type="button">Limpiar</button>
 
-    <script src="main.js" type="module"></script>
+<div id = "root"></div>
+    
 <footer>Desarrolladoras Cataline Alarcon y Addis Pérez Castro</footer>
+<script src="main.js" type="module"></script>
   </body>
 </html>

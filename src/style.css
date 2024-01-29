@@ -6,17 +6,23 @@
     --black: #000000;
 }
 
+* {
+    padding: 0%;
+    margin: 0%;
+
+}
 body {
-    font-family: "Average Sans", "Cabin Condensed";
+    font-family: 'Average', serif;
+    font-family: 'Cabin Condensed', sans-serif;
     background-color: var(--sky-blue);
 }
 
 img {
-    width: 15%;
-    height: 10%;
+    width: 10%;
+    height: 5%;
 }
 h1 {
     color: var(--black);
     background-color: var(--soft-blue);
-    font-family: Average Sans;
+    font-family: 'Average', serif;
 }
