@@ -6,14 +6,14 @@
     --black: #000000;
 };
 
-* {
-    /*background-color: var(--sky-blue);*/
-    
-}
 body {
     background-color: #B6DFF9;
     font-family: "Average Sans", "Cabin Condensed"
 }
+#filtro {
+
+}
+
 img {
     width: 560%;
     height: 370%;
