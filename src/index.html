@@ -14,6 +14,7 @@
     <title>Ghibli Lovers</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <header>
       <img
@@ -25,34 +26,37 @@
         STUDIO GHIBLI
       </h1>
     </header>
-    <main>
-      <input type="text" class="movie-search" placeholder="Buscar" />
-      <h2>Peliculas de Studio Ghibli</h2>
-    </main>
 
+    <label for="input">
+      <input type="text" class="movie-search" placeholder="Buscar" />
+    </label>
+      
     <label for="filter">Filtrar por: </label>
-    <select data-testid="select-filter" name="genders" id="filter">
-      <option value="Genders">Géneros</option>
-      <option value="Romance">Romance</option>
-      <option value="Fantasía">Fantasía</option>
-      <option value="Ciencia Ficción">Ciencia Ficción</option>
-      <option value="Terror">Terror</option>
-      <option value="Bélico">Bélico</option>
-      <option value="Suspenso">Suspenso</option>
-      <option value="Infantil">Infantil</option>
-      <option value="Familiar">Familiar</option>
-      <option value="Comedia">Comedia</option>
-      <option value="Drama">Drama</option>
-      <option value="Aventura">Aventura</option>
+    <select data-testid="select-filter" name="genres" id="filter">
+      <option value="genres">Géneros</option>
+      <option value="romance">Romance</option>
+      <option value="fantasía">Fantasía</option>
+      <option value="cienciaFicción">Ciencia Ficción</option>
+      <option value="terror">Terror</option>
+      <option value="bélico">Bélico</option>
+      <option value="suspenso">Suspenso</option>
+      <option value="infantil">Infantil</option>
+      <option value="familiar">Familiar</option>
+      <option value="comedia">Comedia</option>
+      <option value="drama">Drama</option>
+      <option value="aventura">Aventura</option>
     </select>
 
-    <label for="">Ordenar: </label>
-    <select data-testid="select-filter" name="name">
+    <label for="order">Ordenar: </label>
+    <select data-testid="select-filter" name="sortOrder" id="order">
       <option value="asc">A-Z</option>
       <option value="desc">Z-A</option>
     </select>
 
-    <button class="cleanerButton" type="button">Limpiar</button>
+    <label for="button">
+      <button class="cleanerButton" type="button">Limpiar</button>
+    </label>
+    
 
     <div id="root"></div>
 
