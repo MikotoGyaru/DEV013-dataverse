@@ -7,14 +7,11 @@ export const sortFilms = (data, sortBy, sortOrder) => {
   data.sort((a, b) => {
     const movieA = a[sortBy].toLowerCase();
     const movieB = b[sortBy].toLowerCase();
-    const prueba = movieA.localeCompare(movieB);
-    const prueba2 = movieB.localeCompare(movieA);
 
     if (sortOrder === "asc") {
-      console.log(prueba)
-      return prueba;
+      return movieA.localeCompare(movieB);
     } else if (sortOrder === "desc") {
-      return prueba2;
+      return movieB.localeCompare(movieA);
     }
   });
   return data;
