@@ -18,35 +18,44 @@ body {
     font-family: 'Cabin Condensed', sans-serif;
     background-color: var(--sky-blue);
 }
+.title {
+    display: flex;
+    background-color: var(--soft-blue);
 
+}
 .logo {
     width: 10%;
     height: 5%;
+    display: flex;
 }
 h1 {
     color: var(--black);
-    background-color: var(--soft-blue);
     font-family: 'Average', serif;
 }
 img {
     width: 15%;
     height: 10%;
+    border-radius: 4%;
 }
+
 .movie-search {
     background-color: var(--pastel-blue);
-    border-radius: 10%;
-    border-color: var(--grey);
-    width: 30%;
-    height: 40%;
-    margin: 1%;
-    padding: 0.8%;
-
+    border: var(--grey);
+    border: none;
+    text-align: justify;
+    border: none;
+    border-radius: 2rem;
+    font-size: 16px;
+    margin: 10%;
+    width: 50%;
+    padding: 40%, 70%;
+    background-color: var(--pastel-blue);
 }
 .filter {
     background-color: var(--soft-grey);
     border-color: var(--pastel-blue);
-    width: 25%;
-    height: 30%;
+    width: 15%;
+    height: 20%;
     margin: 1%;
     padding: 0.5;
 }
@@ -56,8 +65,8 @@ img {
 .sortOrder {
     background-color: var(--soft-grey);
     border-color: var(--pastel-blue);
-    width: 25%;
-    height: 30%;
+    width: 15%;
+    height: 20%;
     margin: 1%;
 }
 #order {
@@ -66,13 +75,16 @@ img {
 .cleanerButton {
     background-color: var(--soft-blue);
     border-color: var(--pastel-blue);
-    width: 25%;
-    height: 30%;
+    width: 15%;
+    height: 20%;
     margin: 1%;
     padding: 0.6%;
 }
-#root {
+.card {
     background-color: var(--white);
     padding: auto;
-    margin: 2%;
+    margin: 1%;
+}
+li {
+    list-style: none;
 }
