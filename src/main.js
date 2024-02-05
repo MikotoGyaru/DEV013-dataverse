@@ -24,7 +24,7 @@ movieSearch.addEventListener("input", function () {
   }
 });
 
-orderFilms.addEventListener("click", function () {
+orderFilms.addEventListener("change", function () {
   movieCards.innerHTML = "";
   const selectOrder = orderFilms.value;
   let filmAsc;
@@ -32,7 +32,7 @@ orderFilms.addEventListener("click", function () {
   if (selectOrder === "asc"){
     filmAsc = sortFilms(data, "name", "asc");
   }
-  else if (selectOrder === "desc") {
+  else {
     filmAsc = sortFilms(data, "name", "desc")
   }
   movieCards.appendChild(renderItems(filmAsc));

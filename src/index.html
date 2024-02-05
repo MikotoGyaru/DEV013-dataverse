@@ -20,17 +20,19 @@
       <img
         src="Imagenes/Totoro-png.png"
         alt="Dibujo del contorno de totoro, similar al logo de Studio Ghibli"
+        class="logo"
       />
       <h1>
-        スタジオジブリ <br />
+        スタジオジブリ <br/>
         STUDIO GHIBLI
       </h1>
     </header>
 
-    <label for="input">
+    <label for="input" class="movieSearch">
       <input type="text" class="movie-search" placeholder="Buscar" />
     </label>
-      
+    
+    <div class="filter">
     <label for="filter">Filtrar por: </label>
     <select data-testid="select-filter" name="genres" id="filter">
       <option value="genres">Géneros</option>
@@ -46,15 +48,18 @@
       <option value="drama">Drama</option>
       <option value="aventura">Aventura</option>
     </select>
+    </div>
 
-    <label for="order">Ordenar: </label>
+    <div class="sortOrder">
+    <label for="order" >Ordenar por: </label>
     <select data-testid="select-filter" name="sortOrder" id="order">
       <option value="todos">Defecto</option>
       <option value="asc">A-Z</option>
       <option value="desc">Z-A</option>
     </select>
+    </div>
 
-    <label for="button">
+    <label for="button" class="button">
       <button class="cleanerButton" type="button">Limpiar</button>
     </label>
     

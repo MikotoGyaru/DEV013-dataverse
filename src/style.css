@@ -1,32 +1,8 @@
 :root {
     --soft-blue: #48AEF0;
     --sky-blue: #B6DFF9;
-    --white: #FFFFFF;
-    --soft-grey: #F9F8F8;
-    --black: #000000;
-};
-
-body {
-    background-color: #B6DFF9;
-    font-family: "Average Sans", "Cabin Condensed"
-}
-#filtro {
-
-}
-
-img {
-    width: 560%;
-    height: 370%;
-}
-h1 {
-    color: var(--black);
-    /*background-color: var(--soft-blue);*/
-    font-family: Average Sans;
-    
-
-}:root {
-    --soft-blue: #48AEF0;
-    --sky-blue: #B6DFF9;
+    --pastel-blue: #94B8D1;
+    --grey: #D2E9F9;
     --white: #FFFFFF;
     --soft-grey: #F9F8F8;
     --black: #000000;
@@ -43,7 +19,7 @@ body {
     background-color: var(--sky-blue);
 }
 
-img {
+.logo {
     width: 10%;
     height: 5%;
 }
@@ -51,4 +27,52 @@ h1 {
     color: var(--black);
     background-color: var(--soft-blue);
     font-family: 'Average', serif;
+}
+img {
+    width: 15%;
+    height: 10%;
+}
+.movie-search {
+    background-color: var(--pastel-blue);
+    border-radius: 10%;
+    border-color: var(--grey);
+    width: 30%;
+    height: 40%;
+    margin: 1%;
+    padding: 0.8%;
+
+}
+.filter {
+    background-color: var(--soft-grey);
+    border-color: var(--pastel-blue);
+    width: 25%;
+    height: 30%;
+    margin: 1%;
+    padding: 0.5;
+}
+#filter {
+    border-color: var(--soft-grey);
+}
+.sortOrder {
+    background-color: var(--soft-grey);
+    border-color: var(--pastel-blue);
+    width: 25%;
+    height: 30%;
+    margin: 1%;
+}
+#order {
+    border-color: var(--soft-grey);
+}
+.cleanerButton {
+    background-color: var(--soft-blue);
+    border-color: var(--pastel-blue);
+    width: 25%;
+    height: 30%;
+    margin: 1%;
+    padding: 0.6%;
+}
+#root {
+    background-color: var(--white);
+    padding: auto;
+    margin: 2%;
 }
