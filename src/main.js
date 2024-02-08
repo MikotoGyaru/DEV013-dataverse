@@ -2,7 +2,7 @@ import { filterGenders, sortFilms } from "./dataFunctions.js";
 import { renderItems } from "./view.js";
 
 import data from "./data/dataset.js";
-let newData = [...data]
+const newData = [...data]
 
 const movieCards = document.querySelector("#root");
 const cleanerButton = document.querySelector(".cleanerButton");
@@ -49,6 +49,3 @@ orderFilms.addEventListener("change", function () {
 });
 
 cleanerButton.addEventListener("click", function () {});
-
-//console.log(example, renderItems(data), data);
-//renderItems(data);
