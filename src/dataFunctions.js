@@ -1,7 +1,7 @@
-// Estas funciones son ejemplos, aquí puedes desarrollar tus propias funciones.
-
-//export const filterGenres = () => {
-//};
+export const filterGenders = (data, filterBy, value) => {
+  const filter = data.filter(movie => movie.facts[filterBy].includes(value));
+  return filter; 
+};
 
 export const sortFilms = (data, sortBy, sortOrder) => {
   data.sort((a, b) => {
