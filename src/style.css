@@ -63,7 +63,7 @@ h1 {
     border: var(--grey);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.buttons:hover {
+[data-testid="select-filter"]:hover {
     background-color: var(--soft-blue);
     border: var(--pastel-blue);
     color: var(--white);
@@ -89,6 +89,10 @@ h1 {
     background-color: var(--soft-grey);
     border: var(--grey);
     color: var(--dark-grey);
+}
+
+.noVisual {
+    display: none;
 }
 
 .visual {

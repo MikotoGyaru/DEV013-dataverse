@@ -9,9 +9,8 @@ export const renderItems = (data) => {
     <li itemtype="name">${film.name}</li>
     <li itemtype="genders">Género: ${film.facts["genders"]}</li>
     </ul>
-    <label for="popUp">
+    <label for="popUp"> </label>
     <button class="cardsBtn">Ver más</button>
-    </label>
     </div>
     <section class="windowModal hiden">
     <button class="closeWindow">X</button>

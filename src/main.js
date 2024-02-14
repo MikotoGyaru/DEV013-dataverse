@@ -1,4 +1,4 @@
-import { filterGenders, sortFilms } from "./dataFunctions.js";
+import { filterGenders, sortFilms, computeStats } from "./dataFunctions.js";
 import { renderItems } from "./view.js";
 
 import data from "./data/dataset.js";
@@ -8,6 +8,10 @@ const movieSearch = document.querySelector(".movie-search");
 const gendersFilms = document.querySelector("#filter");
 const orderFilms = document.querySelector("#order");
 const movieCards = document.querySelector("#root");
+const statsButton = document.querySelector(".statsButton");
+const statsWindow = document.querySelector(".statsWindow");
+const closeStats = document.querySelector(".closeStats");
+const statsFondo = document.querySelector(".statsFondo");
 const cleanerButton = document.querySelector(".cleanerButton");
 
 movieCards.appendChild(renderItems(newData));
@@ -52,4 +56,16 @@ cleanerButton.addEventListener("click", function () {
   movieSearch.value = "";
   movieCards.innerHTML = "";
   movieCards.appendChild(renderItems(newData));
+});
+
+statsButton.addEventListener("click", function () {
+  statsWindow.classList.remove("noVisual");
+  statsFondo.classList.remove("noVisual");
+  computeStats(newData);
+});
+
+closeStats.addEventListener("click", function () {
+  statsWindow.classList.add("noVisual");
+  statsFondo.classList.add("noVisual");
+  return closeStats;
 });
