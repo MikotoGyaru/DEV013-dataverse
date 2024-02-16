@@ -22,7 +22,7 @@ movieSearch.addEventListener("input", function () {
   const search = newData.filter((elemento) => {
     return elemento.name.toLowerCase().includes(textSearch);
   });
-
+  
   if (search) {
     movieCards.innerHTML = "";
     results.push(...search);
@@ -32,14 +32,15 @@ movieSearch.addEventListener("input", function () {
 
 gendersFilms.addEventListener("change", function () {
   movieCards.innerHTML = "";
+  sortFilms;
   const selectedGender = gendersFilms.value;
   const filterMovie = filterGenders(newData, "genders", selectedGender);
-  sortFilms;
   movieCards.appendChild(renderItems(filterMovie));
 });
 
 orderFilms.addEventListener("change", function () {
   movieCards.innerHTML = "";
+  gendersFilms.value = "genres";
   const selectOrder = orderFilms.value;
   let filmAsc;
 
@@ -51,14 +52,21 @@ orderFilms.addEventListener("change", function () {
   movieCards.appendChild(renderItems(filmAsc));
 });
 
-cleanerButton.addEventListener("click", function () {
-  const newData = [...data];
-  movieSearch.value = "";
-  movieCards.innerHTML = "";
-  movieCards.appendChild(renderItems(newData));
+cleanerButton.addEventListener("click", function () { 
+  const newData = [...data]; 
+  movieSearch.value = ""; 
+  movieCards.innerHTML = ""; 
+  gendersFilms.value = "genres"; 
+  orderFilms.value = "todos"; 
+  movieCards.appendChild(renderItems(newData)); 
 });
 
 statsButton.addEventListener("click", function () {
+  movieCards.innerHTML = "";
+  
+  const stats = statsButton.value;
+  const genStats = computeStats(newData, "genders", stats);
+  movieCards.appendChild(renderItems(genStats));
   statsWindow.classList.remove("noVisual");
   statsFondo.classList.remove("noVisual");
   computeStats(newData);
