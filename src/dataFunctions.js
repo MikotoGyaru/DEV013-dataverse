@@ -18,7 +18,14 @@ export const sortFilms = (data, sortBy, sortOrder) => {
 };
 
 export const computeStats = (data) => {
-  const stats = {
+  const movies = data.flatMap((movie) => movie.facts.genders.split(", "));
+  console.log(movies.flat());
+  const stats = movies.reduce((acc, genreFil) => {
+    genreFil = genreFil.trim();
+    acc[genreFil] = (acc[genreFil] || 0) + 1;
+    return acc;
+  }, {
+    "Acción": 0,
     "Romance": 0,
     "Fantasía": 0,
     "Ciencia Ficción": 0,
@@ -30,11 +37,50 @@ export const computeStats = (data) => {
     "Comedia": 0,
     "Drama": 0,
     "Aventura": 0,
-  };
+    "Misterio": 0,
+  });
+  console.log(stats);
+};
 
-  data.forEach((movie) => {
-  })
-}
+// export const computeStats = (data) => {
+//   const movies = data.flatMap((movie) => movie.facts.genders.split(", "));
+//   console.log(movies.flat());
+//   let stats = {
+//     "Romance": 0,
+//     "Fantasía": 0,
+//     "Ciencia Ficción": 0,
+//     "Terror": 0,
+//     "Bélico": 0,
+//     "Suspenso": 0,
+//     "Infantil": 0,
+//     "Familia": 0,
+//     "Comedia": 0,
+//     "Drama": 0,
+//     "Aventura": 0,
+//   };
+//   const factsStats = movies.forEach(genreFil => {
+//     stats[genreFil] = (stats[genreFil] || 0) + 1;
+//   })
+//   console.log(factsStats);
+// };
+// export const computeStats = (data) => {
+//   const stats = {
+//     "Romance": 0,
+//     "Fantasía": 0,
+//     "Ciencia Ficción": 0,
+//     "Terror": 0,
+//     "Bélico": 0,
+//     "Suspenso": 0,
+//     "Infantil": 0,
+//     "Familia": 0,
+//     "Comedia": 0,
+//     "Drama": 0,
+//     "Aventura": 0,
+//   };
+
+//   data.forEach((movie) => {
+//   })
+// }
 // const stats = data.reduce(
 //   (acc, movie) => {
 //     if (movie.facts.genders.includes("Romance")) {
