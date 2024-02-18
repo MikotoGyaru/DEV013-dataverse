@@ -59,7 +59,7 @@ export const computeStats = (data) => {
 //     "Aventura": 0,
 //   };
 //   const factsStats = movies.forEach(genreFil => {
-//     stats[genreFil] = (stats[genreFil] || 0) + 1;
+//    stats[genreFil] += 1;
 //   })
 //   console.log(factsStats);
 // };
