@@ -10,7 +10,7 @@ const orderFilms = document.querySelector("#order");
 const movieCards = document.querySelector("#root");
 const statsButton = document.querySelector(".statsButton");
 const statsWindow = document.querySelector(".statsWindow");
-const stats = document.querySelector(".stats")
+const statsMovie = document.querySelector(".statsMovie")
 const closeStats = document.querySelector(".closeStats");
 const statsFondo = document.querySelector(".statsFondo");
 const cleanerButton = document.querySelector(".cleanerButton");
@@ -63,13 +63,9 @@ cleanerButton.addEventListener("click", function () {
 });
 
 statsButton.addEventListener("click", function () {
-  const statsBtn = statsButton.value;
-  const genStats = computeStats(newData, "genders", statsBtn);
-  movieCards.appendChild(renderItems(genStats));
+  statsMovie.textContent = computeStats(newData);
   statsWindow.classList.remove("noVisual");
   statsFondo.classList.remove("noVisual");
-  computeStats(newData);
-  return statsButton;
 });
 
 closeStats.addEventListener("click", function () {

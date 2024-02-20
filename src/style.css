@@ -16,35 +16,38 @@
 body {
     font-family: 'Cabin Condensed', 'Merriweather', 'sans-serif';
     background-color: var(--sky-blue);
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     position: relative;
 }
 .title {
     display: flex;
     background-color: var(--soft-blue);
-    color: var(--black);
-    font-family: sans-serif;
-    font-size: 1.5em;
+    width: 100%;
+    height: 100%;
     text-align: center;
-    padding-top: 0.7rem;
 }
 .logo {
-    width: 13.8rem;
-    height: 10rem;
+    width: 27vw;
+    height: 26vh;
+}
+h1 {
+    display: contents;
+    color: var(--black);
+    font-family: sans-serif;
+    font-size: 2.7em;
+    padding-top: 0.7rem;
+
+    
 }
 .movie-search {
     background-color: var(--grey);
     border: var(--pastel-blue);
     width: 26rem;
     height: 2.5rem;
-    font-size: 0.96rem;
+    font-size: 0.93em;
     padding-left: 1.3rem;
     border-radius: 9999rem;
-    margin-top: 3.9rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-top: 3rem;
+    margin-left: 20rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .superButtons{
@@ -137,6 +140,7 @@ body {
 }
 .visual {
     background-color: var(--white);
+    color: var(--dark-grey);
     padding: 1rem;
     margin: 1rem;
     width: 18rem;
@@ -145,14 +149,13 @@ body {
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
     text-align: center;
     font-family: Merriweather;
-    font-size: 0.8rem;
+    font-size: 0.85rem;
 }
 .visual > img {
     width: 14rem;
     height: 20rem;
     border-radius: 0.6rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.425);
-    justify-content: center;
 }
 li {
     list-style: none;
@@ -160,7 +163,7 @@ li {
 ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
     margin: 1rem 0 0.8rem 0;
 }
@@ -176,7 +179,7 @@ ul {
     font-family: Merriweather;
     text-align: center;
     background-color: var(--white);
-    color: var(--black);
+    color: var(--dark-grey);
     border: 0.1rem solid var(--soft-blue);
 }
 .cardsBtn:hover {
@@ -197,12 +200,11 @@ ul {
 }
 h2 {
     font-size: 2.5rem;
-    font-family: sans-serif;
+    font-family: Merriweather;
     display: flex;
     justify-content: center;
     color: var(--black);
 }
-/* Cabin Condensed Merriweather; */
 .modalCard {
     width: 44rem;
     height: 27rem;
@@ -231,7 +233,7 @@ h2 {
     font-family: Merriweather;
     background-color: var(--pastel-blue);
     background-color: var(--soft-blue);
-    color: var(--black)
+    color: var(--dark-grey);
 }
 .modalFondo {
     position: fixed;
@@ -258,15 +260,18 @@ footer {
     justify-content: center;
     align-items: center;
   }
-  @media (min-width: 600px) {
-    .title {
-        display: flex;
+    @media (max-width: 600px) {
+      .title {
+          width: 50%;
+          border: 1px solid red;
+          font-size: 2em;
+      }
+      h
+      .logo {
+          display: flex;
+      }
+      .movie-search {
+          display: flex;
+          flex-direction: column;
+      }
     }
-    .logo {
-        display: flex;
-    }
-    .movie-search {
-        display: flex;
-        flex-direction: column;
-    }
-  }

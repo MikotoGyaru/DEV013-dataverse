@@ -19,10 +19,10 @@ export const sortFilms = (data, sortBy, sortOrder) => {
 
 export const computeStats = (data) => {
   const movies = data.flatMap((movie) => movie.facts.genders.split(", "));
-  console.log(movies.flat());
+  console.log(movies);
   const stats = movies.reduce((acc, genreFil) => {
     genreFil = genreFil.trim();
-    acc[genreFil] = (acc[genreFil] || 0) + 1;
+    acc[genreFil] += 1;
     return acc;
   }, {
     "Acción": 0,
@@ -39,9 +39,9 @@ export const computeStats = (data) => {
     "Aventura": 0,
     "Misterio": 0,
   });
-  console.log(stats);
+  return `${stats}`;
 };
-
+  
 // export const computeStats = (data) => {
 //   const movies = data.flatMap((movie) => movie.facts.genders.split(", "));
 //   console.log(movies.flat());
