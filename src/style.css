@@ -34,19 +34,16 @@ h1 {
     color: var(--black);
     font-family: sans-serif;
     font-size: 2.7em;
-    padding-top: 0.7rem;
-
-    
 }
 .movie-search {
     background-color: var(--grey);
     border: var(--pastel-blue);
-    width: 26rem;
-    height: 2.5rem;
+    width: 26vw;
+    height: 6.5vh;
     font-size: 0.93em;
     padding-left: 1.3rem;
     border-radius: 9999rem;
-    margin-top: 3rem;
+    margin-top: 7vh;
     margin-left: 20rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -261,14 +258,12 @@ footer {
     align-items: center;
   }
     @media (max-width: 600px) {
-      .title {
-          width: 50%;
-          border: 1px solid red;
-          font-size: 2em;
-      }
-      h
-      .logo {
-          display: flex;
+     .logo {
+        width: 21vw;
+        height: 20vh;
+     }
+      h1 {
+        font-size: 1.3em;
       }
       .movie-search {
           display: flex;
