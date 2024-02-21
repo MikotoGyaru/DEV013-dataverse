@@ -18,7 +18,7 @@ body {
     background-color: var(--sky-blue);
     position: relative;
 }
-.title {
+.header {
     display: flex;
     background-color: var(--soft-blue);
     width: 100%;
@@ -28,6 +28,9 @@ body {
 .logo {
     width: 27vw;
     height: 26vh;
+}
+.title {
+    margin: 0.8rem 25rem 0 0;
 }
 h1 {
     display: contents;
@@ -43,8 +46,7 @@ h1 {
     font-size: 0.93em;
     padding-left: 1.3rem;
     border-radius: 9999rem;
-    margin-top: 7vh;
-    margin-left: 20rem;
+    margin: 3.5rem 2rem 0 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .superButtons{
@@ -164,10 +166,6 @@ ul {
     text-align: center;
     margin: 1rem 0 0.8rem 0;
 }
-.closeWindow {
-    border: none;
-    background-color: var(--soft-blue);
-}
 .cardsBtn {
     width: 11rem;
     height: 2rem;
@@ -183,6 +181,10 @@ ul {
     background-color: var(--soft-blue);
     border: var(--grey);
     color: var(--white);
+}
+.closeWindow {
+    border: none;
+    background-color: var(--soft-blue);
 }
 .windowModal {
     z-index: 2;
@@ -256,17 +258,95 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-    @media (max-width: 600px) {
-     .logo {
-        width: 21vw;
-        height: 20vh;
-     }
-      h1 {
-        font-size: 1.3em;
-      }
-      .movie-search {
-          display: flex;
-          flex-direction: column;
-      }
+}
+@media (max-width: 600px) {
+    .logo {
+        width: 25vw;
+        height: 17vh;
     }
+    .title {
+        margin: 1rem 0 0 0;
+    }
+    h1 {
+        font-size: 1.3em;
+    }
+    .movie-search {
+        margin: 1.6rem 0 0 9rem;
+        height: 1.7rem;
+        font-size: 0.7em;
+    }
+    .superButtons {
+        margin: 0.5rem 0 0 0;
+    }
+    [data-testid="select-filter"] {
+        width: 7rem;
+	    height: 2.1rem;
+	    font-size: 0.7em;
+    }
+    .cleanerButton {
+        width: 7rem;
+	    height: 2.1rem;
+	    font-size: 0.7em;
+    }
+    .statsButton {
+        width: 5rem;
+	    height: 2.1rem;
+    }
+    .statsButton > img {
+        width: 2.5rem;
+        height: auto;
+    }
+    .statsWindow {
+        width: 15rem;
+        height: 10rem;
+    }
+    .visual {
+        margin: 0.4rem;
+        width: 11rem;
+        height: 20rem;
+        padding: 0.5rem;
+        box-shadow: 6px 6px 1px 0.5px rgba(0, 0, 255, .2);
+        font-size: 0.6rem;
+    }
+    .visual > img {
+        width: 9rem;
+        height: 14rem;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.425);
+    }
+    ul {
+        margin: 0.5rem 0 0.4rem 0;
+    }
+    .cardsBtn {
+        width: 6rem;
+        height: 1.5rem;
+        font-size: 1em;
+    }
+    .windowModal {
+       	width: 30rem;
+	    height: 21.5rem;
+    }
+    .closeWindow {
+        margin: 0.5rem 0 0 25rem;
+        font-size: 0.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .modalCard {
+        width: 28rem;
+	    height: 17rem;
+	    margin: 0.2rem 1rem;
+    }
+    .card {
+        font-size: 0.7rem;
+        margin: 0.05rem;
+    }
+    .modalCard > img {
+        width: 10rem;
+        height: 15rem;
+        margin: 0.5rem;
+    }
+    footer {
+        font-size: 0.5rem;
+    }
+}

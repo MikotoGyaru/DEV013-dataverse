@@ -39,6 +39,15 @@ gendersFilms.addEventListener("change", function () {
   movieCards.appendChild(renderItems(filterMovie));
 });
 
+gendersFilms.addEventListener("change", function () {
+  movieCards.innerHTML = "";
+  const selectedGender = gendersFilms.value;
+  const filterMovie = filterGenders(newData, "genders", selectedGender);
+  sortFilms;
+  movieCards.appendChild(renderItems(filterMovie));
+
+});
+
 orderFilms.addEventListener("change", function () {
   movieCards.innerHTML = "";
   gendersFilms.value = "genres";
