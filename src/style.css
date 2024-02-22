@@ -122,6 +122,35 @@ h1 {
     border-radius: 3rem;
     background-color: var(--white)
 }
+h3 {
+    font-size: 1.5rem;
+    font-family: Merriweather;
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-top: 2rem;
+}
+p {
+    font-family: Merriweather;
+    font-size: 1rem;
+    text-align: left;
+    margin: 0.5rem;
+}
+.closeStats {
+    display: block;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-family: Merriweather;
+    background-color: var(--sky-blue);
+    color: var(--dark-grey);
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 0.7rem;
+    width: fit-content;
+    margin: auto;
+    margin-top: 2rem;
+}
 .statsFondo {
     position: fixed;
     top: 0;
@@ -182,18 +211,14 @@ ul {
     border: var(--grey);
     color: var(--white);
 }
-.closeWindow {
-    border: none;
-    background-color: var(--soft-blue);
-}
 .windowModal {
     z-index: 2;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 49rem;
-    height: 34rem;
+    width: 46rem;
+    height: 35rem;
     border-radius: 3rem;
     background-color: var(--soft-blue);
 }
@@ -202,17 +227,36 @@ h2 {
     font-family: Merriweather;
     display: flex;
     justify-content: center;
-    color: var(--black);
+    margin: 0.6rem 0 0 0;
+    text-shadow: -1.4px 0 var(--dark-grey), 0 1.4px var(--dark-grey),
+    1.4px 0 var(--dark-grey), 0 -1.4px var(--dark-grey);
+    color: var(--white);
 }
 .modalCard {
     width: 44rem;
     height: 27rem;
     border-radius: 2rem;
-    margin: 0.4rem 2.4rem;
+    margin: 0.6rem 1rem;
     display: flex;
     justify-content: center;
     background-color: var(--white);
 }
+.closeWindow {
+    font-size: 1rem;
+    font-family: Merriweather;
+    background-color: var(--soft-grey);
+    color: var(--dark-grey);
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 0.7rem;
+    width: fit-content;
+}
+.closeWindow:hover {
+    background-color: var(--sky-blue);
+    border: var(--grey);
+    color: var(--black);
+} 
 .card {
     font-family: Merriweather;
     font-size: 1rem;
@@ -226,14 +270,7 @@ h2 {
     border-radius: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.425);
 }
-.closeWindow {
-    margin: 1rem 0 0 45rem;
-    font-size: 1rem;
-    font-family: Merriweather;
-    background-color: var(--pastel-blue);
-    background-color: var(--soft-blue);
-    color: var(--dark-grey);
-}
+
 .modalFondo {
     position: fixed;
     top: 0;
@@ -326,7 +363,6 @@ footer {
 	    height: 21.5rem;
     }
     .closeWindow {
-        margin: 0.5rem 0 0 25rem;
         font-size: 0.5rem;
     }
     h2 {
@@ -334,8 +370,8 @@ footer {
     }
     .modalCard {
         width: 28rem;
-	    height: 17rem;
-	    margin: 0.2rem 1rem;
+	    height: 16.2rem;
+	    margin: 0.3rem 1rem;
     }
     .card {
         font-size: 0.7rem;
