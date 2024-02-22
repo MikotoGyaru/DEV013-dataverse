@@ -19,7 +19,6 @@ export const sortFilms = (data, sortBy, sortOrder) => {
 
 export const computeStats = (data) => {
   const movies = data.flatMap((movie) => movie.facts.genders.split(", "));
-  console.log(movies);
   const stats = movies.reduce((acc, genreFil) => {
     genreFil = genreFil.trim();
     acc[genreFil] += 1;

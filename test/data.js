@@ -1,52 +1,99 @@
-// Aqui puedes agregar los datos que necesites para tus pruebas
-// al menos debe tener uno que se llame "data"
-
-export const data = [{
-  "id": "ada-lovelace",
-  "name": "Ada Lovelace",
-  "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-  "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-  "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
-  "facts": {
-    "yearOfBirth": "1815",
-    "yearOfDeath": "1852",
-    "birthPlace": "Londres, Reino Unido",
-    "mainField": "Ciencia de la Computación"
+export const data = [
+  {
+    id: "nausicaa-del-valle-del-viento",
+    name: "Nausicaä del Valle del Viento",
+    shortDescription:
+      "Épica historia sobre la princesa Nausicaä y su lucha por salvar su tierra de la contaminación y la guerra.",
+    description:
+      "Nausicaä del Valle del Viento es una obra maestra de Hayao Miyazaki que sigue la historia de la princesa Nausicaä en un mundo postapocalíptico. Con temas de ecología y pacifismo, la película es una emotiva aventura que aborda la relación entre la humanidad y la naturaleza.",
+    imageUrl:
+      "",
+    facts: {
+      duration: "1h 57m",
+      releaseYear: "1984",
+      genders: "Fantasía,  Ciencia Ficción",
+      boxOfficeRevenue: "$10 millones USD en taquilla.",
+    },
   },
-  "extraInfo": {
-    "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
-  }
-},
-{
-  "id": "emmy-noether",
-  "name": "Emmy Noether",
-  "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-  "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-  "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
-  "facts": {
-    "yearOfBirth": "1882",
-    "yearOfDeath": "1935",
-    "birthPlace": "Erlangen, Alemania",
-    "mainField": "Matemáticas"
+  {
+    id: "el-castillo-en-el-cielo",
+    name: "El Castillo en el cielo",
+    shortDescription:
+      "Aventura emocionante de un joven y una niña en busca de un legendario castillo flotante.",
+    description:
+      "El Castillo en el cielo, dirigida por Hayao Miyazaki, sigue las peripecias de Pazu y Sheeta en su búsqueda del legendario Castillo en el Cielo. La película combina acción, misterio y fantasía, ofreciendo una experiencia visualmente impactante y emocionante.",
+    imageUrl:
+      "",
+    facts: {
+      duration: "2h 4m",
+      releaseYear: "1986",
+      genders: "Aventura, Fantasía",
+      boxOfficeRevenue: "$15 millones USD en taquilla.",
+    },
   },
-  "extraInfo": {
-    "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
-  }
-},
-{
-  "id": "hypatia-de-alejandria",
-  "name": "Hypatia de Alejandría",
-  "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-  "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-  "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
-  "facts": {
-    "yearOfBirth": "circa 360",
-    "yearOfDeath": "415",
-    "birthPlace": "Alejandría, Egipto",
-    "mainField": "Matemáticas, Filosofía"
+  {
+    id: "la-tumba-de-las-luciernagas",
+    name: "La Tumba de las Luciérnagas",
+    shortDescription:
+      "Conmovedora historia sobre dos hermanos tratando de sobrevivir en Japón durante la Segunda Guerra Mundial.",
+    description:
+      "La Tumba de las Luciérnagas es una obra maestra dirigida por Isao Takahata que narra la conmovedora historia de Seita y Setsuko, dos hermanos tratando de sobrevivir en Japón durante la Segunda Guerra Mundial. La película aborda temas de pérdida, esperanza y la devastación de la guerra.",
+    imageUrl:
+      "",
+    facts: {
+      duration: "2h 4m",
+      releaseYear: "1988",
+      genders: "Drama, Bélico, Terror",
+      boxOfficeRevenue: "$14 millones USD en taquilla.",
+    },
   },
-  "extraInfo": {
-    "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
-  }
-},];
+  {
+    id: "mi-vecino-totoro",
+    name: "Mi Vecino Totoro",
+    shortDescription:
+      "Encantadora película de animación sobre dos hermanas que descubren criaturas mágicas en su nuevo hogar.",
+    description:
+      "Mi Vecino Totoro, dirigida por Hayao Miyazaki, es una joya del Studio Ghibli que sigue la historia de dos hermanas, Satsuke y Mei, que se mudan a un nuevo hogar y descubren a criaturas mágicas en el bosque cercano. La película captura la inocencia de la infancia y la magia de la naturaleza, ofreciendo una experiencia cinematográfica única.",
+    imageUrl:
+      "",
+    facts: {
+      duration: "1h 26m",
+      releaseYear: "1988",
+      genders: "Familia, Fantasía, Aventura",
+      boxOfficeRevenue: "$30 millones USD en taquilla.",
+    },
+  },
+  {
+    id: "kiki:-entregas-a-domicilio",
+    name: "Kiki: entregas a domicilio",
+    shortDescription:
+      "Encantadora historia de una joven bruja que busca encontrar su lugar en el mundo.",
+    description:
+      "Kiki, la aprendiz de bruja, dirigida por Hayao Miyazaki, sigue la historia de Kiki, una joven bruja que emprende un viaje para encontrar su lugar en el mundo. La película destaca la autoexploración, la amistad y la superación de los desafíos. Una experiencia mágica que ha cautivado a audiencias de todas las edades.",
+    imageUrl:
+      "",
+    facts: {
+      duration: "1h 42m",
+      releaseYear: "1989",
+      genders: "Aventura, Fantasía",
+      boxOfficeRevenue: "$18 millones USD en taquilla.",
+    },
+  },
+  {
+    id: "recuerdos-del-ayer",
+    name: "Recuerdos del Ayer",
+    shortDescription:
+      "Emotiva historia que sigue a una joven que redescubre su infancia a través de recuerdos nostálgicos.",
+    description:
+      "Recuerdos del Ayer, dirigida por Isao Takahata, relata la conmovedora historia de Taeko, una mujer que, durante un viaje, redescubre su infancia a través de recuerdos nostálgicos. La película aborda temas de identidad, amor y el impacto duradero de la infancia en la vida adulta.",
+    imageUrl:
+      "",
+    facts: {
+      duration: "1h 58m",
+      releaseYear: "1991",
+      genders: "Drama, Romance",
+      boxOfficeRevenue: "$525 mil USD en taquilla.",
+    },
+  },
+]
 
