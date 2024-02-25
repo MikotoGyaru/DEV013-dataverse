@@ -15,7 +15,7 @@ const closeStats = document.querySelector(".closeStats");
 const statsFondo = document.querySelector(".statsFondo");
 const cleanerButton = document.querySelector(".cleanerButton");
 
-movieCards.appendChild(renderItems(newData));
+movieCards.appendChild(renderItems(newData)); 
 
 movieSearch.addEventListener("input", function () {
   const results = [];
@@ -23,7 +23,7 @@ movieSearch.addEventListener("input", function () {
   const search = newData.filter((elemento) => {
     return elemento.name.toLowerCase().includes(textSearch);
   });
-  
+
   if (search) {
     movieCards.innerHTML = "";
     results.push(...search);
@@ -39,14 +39,6 @@ gendersFilms.addEventListener("change", function () {
   movieCards.appendChild(renderItems(filterMovie));
 });
 
-gendersFilms.addEventListener("change", function () {
-  movieCards.innerHTML = "";
-  const selectedGender = gendersFilms.value;
-  const filterMovie = filterGenders(newData, "genders", selectedGender);
-  sortFilms;
-  movieCards.appendChild(renderItems(filterMovie));
-
-});
 
 orderFilms.addEventListener("change", function () {
   movieCards.innerHTML = "";
