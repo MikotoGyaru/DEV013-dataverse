@@ -15,7 +15,7 @@
 
 Este proyecto ha dado origen a una página web informativa que se centra en las películas de Studio Ghibli. En ella, se puede acceder a un conjunto de datos creados con ayuda de la inteligencia artificial ChatGPT que incluyen detalles como el año de publicación, los géneros, y una breve descripción de cada película. Este recurso se ha diseñado para ofrecer una visión general y accesible de las maravillosas creaciones de Studio Ghibli, facilitando así a los aficionados la búsqueda de información sobre estas aclamadas obras cinematográficas.
 
-![Ghibli Lovers](src/Imagenes/vista-inicio-pag-finalizada.png) ![Peliculas Studio Ghibli](src/Imagenes/Imagenes/vista-final-pagina.png)
+![Ghibli Lovers](src/Imagenes/vista-inicio-pag-finalizada.png) ![Peliculas Studio Ghibli](src/Imagenes/vista-final-pagina.png)
 ![Modal con Información](src/Imagenes/tarjeta-resultado-final.png)
 
 ## 2. Funcionalidad
@@ -153,6 +153,6 @@ Basándonos en el valioso feedback proporcionado por nuestras usuarias, hemos re
 
  - Para generar el dataset, empleamos a nuestro mayordomo ChatGPT, cuya colaboración fue fundamental. ChatGPT nos guió a través de una serie de 'promptings' que sirvieron como punto de partida para la generación de los datos. Estos 'promptings' incluían preguntas y temas relacionados con las películas de Studio Ghibli, como el año de estreno, el género, la trama, y otros detalles relevantes. Luego, con la ayuda de ChatGPT, expandimos y enriquecimos esta información inicial, creando un dataset completo y detallado que abarca todas las películas de Studio Ghibli.
 
-![Promting de la creacion de data](src/Imagenes/prompting-de-data-generada.png)
+![Promting de la creacion de data](src/Imagenes/promting-de-data-generada.png)
 
  - Para la generación de imágenes en nuestro caso, al tratarse de datos ya existentes, procedimos a buscar en la plataforma Pinterest. Esta herramienta funciona como un buscador de imágenes (https://www.pinterest.com/) que nos permitió encontrar una amplia variedad de imágenes relacionadas con las películas de Studio Ghibli. Luego, seleccionamos cuidadosamente las imágenes más representativas y de mayor calidad para incorporarlas en nuestro dataset.  
