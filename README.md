@@ -15,8 +15,8 @@
 
 Este proyecto ha dado origen a una página web informativa que se centra en las películas de Studio Ghibli. En ella, se puede acceder a un conjunto de datos creados con ayuda de la inteligencia artificial ChatGPT que incluyen detalles como el año de publicación, los géneros, y una breve descripción de cada película. Este recurso se ha diseñado para ofrecer una visión general y accesible de las maravillosas creaciones de Studio Ghibli, facilitando así a los aficionados la búsqueda de información sobre estas aclamadas obras cinematográficas.
 
-![Ghibli Lovers](Imagenes/vista-inicio-pag-finalizada.png) ![Peliculas Studio Ghibli](Imagenes/vista-final-pagina.png)
-![Modal con Información](Imagenes/tarjeta-resultado-final.png)
+![Ghibli Lovers](src/Imagenes/vista-inicio-pag-finalizada.png) ![Peliculas Studio Ghibli](src/Imagenes/Imagenes/vista-final-pagina.png)
+![Modal con Información](src/Imagenes/tarjeta-resultado-final.png)
 
 ## 2. Funcionalidad
 
@@ -75,7 +75,7 @@ Para visualizar la data generada por ChatGPT, se ha implementado un componente U
    + Se realizaron pruebas exhaustivas de fuentes para asegurar una experiencia visual óptima.
    + Se consultó con usuarios habituales de películas de Studio Ghibli para obtener retroalimentación sobre la usabilidad y el diseño.
 
-   ![Planificación para la Historia de Usuaria n°1](Imagenes/historia-de-usuaria-n1.png)
+   ![Planificación para la Historia de Usuaria n°1](src/Imagenes/historia-de-usuaria-n1.png)
 
 ### Historia de Usuaria N°2
 
@@ -96,7 +96,7 @@ Para visualizar la data generada por ChatGPT, se ha implementado un componente U
   + Se ha creado una ventana emergente con la información detallada de cada película.
   + Se ha implementado un botón para reiniciar la página y restablecer los filtros y ordenamientos.
 
-  ![Planificación para Historia de Usuaria N°2](Imagenes/historia-de-usuaria-n2.png)
+  ![Planificación para Historia de Usuaria N°2](src/Imagenes/historia-de-usuaria-n2.png)
 
 ## 4. Diseño de Interfaz de Usuaria
 
@@ -125,21 +125,21 @@ En el proceso de prototipado, llevamos a cabo una minuciosa investigación de us
 
 Para materializar estas ideas y comprobar su viabilidad, hemos desarrollado un prototipo inicial de baja fidelidad. Este prototipo, que se ajusta a la primera historia de usuario, servirá como base para posteriores iteraciones, adaptándose siempre a la evolución de la experiencia de la usuaria.
 
-![Prototipo alta fidelidad N°0](Imagenes/prototipo-n0.png)
+![Prototipo alta fidelidad N°0](src/Imagenes/prototipo-n0.png)
 
 Basándonos en el valioso feedback proporcionado por nuestras usuarias, hemos realizado ajustes significativos en el diseño de nuestro prototipo. El resultado final es una versión que satisface las necesidades y expectativas de nuestras usuarias de manera más efectiva y eficiente.
 
 **Prototipo para Desktop**
 
-![Prototipo final para pc](Imagenes/prototipo-desktop.png) ![Parte 2 del prototipo desktop](Imagenes/prototipo-desktop2.png)
+![Prototipo final para pc](src/Imagenes/prototipo-desktop.png) ![Parte 2 del prototipo desktop](src/Imagenes/prototipo-desktop2.png)
 
 **Vista de la Tarjeta con información detallada**
 
-![Vista de prototipo de tarjeta](Imagenes/prototipo-tarjeta-info.png)
+![Vista de prototipo de tarjeta](src/Imagenes/prototipo-tarjeta-info.png)
 
 **Prototipo para Moviles**
 
-![Prototipo para moviles](Imagenes/prototipo-celular.png)
+![Prototipo para moviles](src/Imagenes/prototipo-celular.png)
 
 ## 5. Listado de Problemas Detectados a través de Test de Usabilidad
 
@@ -153,6 +153,6 @@ Basándonos en el valioso feedback proporcionado por nuestras usuarias, hemos re
 
  - Para generar el dataset, empleamos a nuestro mayordomo ChatGPT, cuya colaboración fue fundamental. ChatGPT nos guió a través de una serie de 'promptings' que sirvieron como punto de partida para la generación de los datos. Estos 'promptings' incluían preguntas y temas relacionados con las películas de Studio Ghibli, como el año de estreno, el género, la trama, y otros detalles relevantes. Luego, con la ayuda de ChatGPT, expandimos y enriquecimos esta información inicial, creando un dataset completo y detallado que abarca todas las películas de Studio Ghibli.
 
-![Promting de la creacion de data](Imagenes/prompting-de-data-generada.png)
+![Promting de la creacion de data](src/Imagenes/prompting-de-data-generada.png)
 
  - Para la generación de imágenes en nuestro caso, al tratarse de datos ya existentes, procedimos a buscar en la plataforma Pinterest. Esta herramienta funciona como un buscador de imágenes (https://www.pinterest.com/) que nos permitió encontrar una amplia variedad de imágenes relacionadas con las películas de Studio Ghibli. Luego, seleccionamos cuidadosamente las imágenes más representativas y de mayor calidad para incorporarlas en nuestro dataset.  
