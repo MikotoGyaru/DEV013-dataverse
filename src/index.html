@@ -3,37 +3,23 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Average&family=Cabin+Condensed&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <title>Ghibli Lovers</title>
-    <link rel="icon" type="image/png" href="imagenes/icono-ramita.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/dvf5gab.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Sanrio Lovers</title>
+    <link rel="icon" type="image/png" href="imagenes/bow-icon.png" />
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <header>
       <div class="header">
-        <img
-          src="https://raw.githubusercontent.com/Addis-cx/DEV013-dataverse/html/src/Imagenes/Totoro-transparente.png"
-          alt="Dibujo del contorno de totoro, similar al logo de Studio Ghibli"
-          class="logo"
-        />
+        <img alt="Logo de Sanrio" src="imagenes/sanrio-logo-pink.png" class="logo" />
         <div class="title">
-          <h1>スタジオジブリ</h1>
-          <h1>STUDIO GHIBLI</h1>
+          <!-- <h1>Sanrio Characters</h1> -->
         </div>
-        <label for="input">
-          <input type="text" class="movie-search" placeholder="Buscar" />
-        </label>
       </div>
     </header>
 
@@ -49,11 +35,11 @@
           <option value="Drama">Drama</option>
           <option value="Familia">Familia</option>
           <option value="Fantasía">Fantasía</option>
-          <option value="Romance">Romance</option>
-          <option value="Terror">Terror</option>
-          <option value="Suspenso">Suspenso</option>
           <option value="Infantil">Infantil</option>
           <option value="Misterio">Misterio</option>
+          <option value="Romance">Romance</option>
+          <option value="Suspenso">Suspenso</option>
+          <option value="Terror">Terror</option>
         </select>
       </label>
 
@@ -71,10 +57,7 @@
 
       <label for="stats" class="button2">
         <button class="statsButton">
-          <img
-            src="https://raw.githubusercontent.com/Addis-cx/DEV013-dataverse/html/src/Imagenes/estadisticas-transparente.png"
-            alt="Icono de estadisticas"
-          />
+          <span class="material-icons">query_stats</span>
         </button>
       </label>
     </div>
@@ -87,10 +70,14 @@
       </label>
     </div>
     <div class="statsFondo noVisual"></div>
+    <label for="input" class="search-label">
+      <!-- <span class="material-icons">search</span> -->
+      <input type="text" class="character-search" placeholder="Buscar" />
+    </label>
 
     <div id="root"></div>
 
-    <footer>Desarrolladoras Addis Pérez Castro y Cataline Alarcón 🌼</footer>
+    <footer>Desarrollado por Cataline Alarcón 🎀</footer>
   </body>
   <script src="main.js" type="module"></script>
 </html>

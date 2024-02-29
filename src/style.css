@@ -7,40 +7,51 @@
     --dark-grey: #2C2C2C;
     --white: #FFFFFF;
     --black: #000000;
+    --fucsia: #e13479;
+    --soft-pink: #FFC1D4;
+    --pink-dust: #dfaebd;
+    --pink-logo: #ff839b;
+    --brown: #62360F;
+
 }
 * {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    font-family: "nunito", sans-serif;
 }
 body {
-    font-family: 'Cabin Condensed', 'Merriweather', 'sans-serif';
-    background-color: var(--sky-blue);
+    /* font-family: "nunito", sans-serif; */
+    background-color: var(--soft-pink);
     position: relative;
 }
 .header {
     display: flex;
-    background-color: var(--soft-blue);
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
     width: 100%;
-    height: 100%;
-    text-align: center;
+    height: 30%;
+    margin: 0;
+    padding: 0;
 }
 .logo {
-    width: 27vw;
-    height: 26vh;
+    width: 250px;
+    height: 70px;
 }
 .title {
-    margin: 0.8rem 25rem 0 0;
+    /* margin: 0.8rem 25rem 0 0; */
 }
 h1 {
     display: contents;
-    color: var(--black);
-    font-family: sans-serif;
+    color: var(--fucsia);
+    font-family: "Galada", cursive;
     font-size: 2.7em;
 }
-.movie-search {
-    background-color: var(--grey);
-    border: var(--pastel-blue);
+.character-search {
+    background-color: var(--pink-dust);
+    border: none;
+    color: var(--white);
     width: 26vw;
     height: 6.5vh;
     font-size: 0.93em;
@@ -61,15 +72,14 @@ h1 {
     font-size: 1rem;
     font-weight: 700;
     text-align: center;
-    font-family: Merriweather;
-    background-color: var(--soft-grey);
+    background-color: var(--white);
     color: var(--dark-grey);
-    border: var(--grey);
+    border: var(--soft-pink);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 [data-testid="select-filter"]:hover {
-    background-color: var(--soft-blue);
-    border: var(--pastel-blue);
+    background-color: var(--pink-dust);
+    border: var(--soft-pink);
     color: var(--white);
 }
 .cleanerButton {
@@ -79,10 +89,8 @@ h1 {
     font-size: 1rem;
     font-weight: 700;
     text-align: center;
-    font-family: Merriweather;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: var(--soft-blue);
-    border-color: var(--pastel-blue);
+    background-color: var(--pink-dust);
     color: var(--white);
     border: var(--grey);
 }
@@ -96,15 +104,10 @@ h1 {
     height: 2.5rem;
     border-radius: 0.5rem;
     font-size: 1rem;
-    background-color: var(--soft-blue);
-    border-color: var(--pastel-blue);
+    background-color: var(--pink-dust);
     color: var(--white);
     border: var(--grey);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-.statsButton > img {
-    width: 3rem;
-    height: auto;
 }
 .statsButton:hover {
     background-color: var(--soft-grey);
@@ -124,14 +127,12 @@ h1 {
 }
 h3 {
     font-size: 1.5rem;
-    font-family: Merriweather;
     display: flex;
     justify-content: center;
     color: black;
     margin-top: 2rem;
 }
 p {
-    font-family: Merriweather;
     font-size: 1rem;
     text-align: left;
     margin: 0.5rem;
@@ -140,7 +141,6 @@ p {
     display: block;
     margin-top: 10px;
     font-size: 1rem;
-    font-family: Merriweather;
     background-color: var(--sky-blue);
     color: var(--dark-grey);
     border: none;
@@ -176,7 +176,6 @@ p {
     border-radius: 0.9rem;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
     text-align: center;
-    font-family: Merriweather;
     font-size: 0.85rem;
 }
 .visual > img {
@@ -200,7 +199,6 @@ ul {
     height: 2rem;
     border-radius: 0.7rem;
     font-size: 1rem;
-    font-family: Merriweather;
     text-align: center;
     background-color: var(--white);
     color: var(--dark-grey);
@@ -224,7 +222,6 @@ ul {
 }
 h2 {
     font-size: 2.5rem;
-    font-family: Merriweather;
     display: flex;
     justify-content: center;
     margin: 0.6rem 0 0 0;
@@ -243,7 +240,6 @@ h2 {
 }
 .closeWindow {
     font-size: 1rem;
-    font-family: Merriweather;
     background-color: var(--soft-grey);
     color: var(--dark-grey);
     border: none;
@@ -258,7 +254,6 @@ h2 {
     color: var(--black);
 } 
 .card {
-    font-family: Merriweather;
     font-size: 1rem;
     text-align: left;
     margin: 0.5rem;
@@ -291,7 +286,6 @@ footer {
     width: 100%;
     height: 5rem;
     font-size: 1rem;
-    font-family: Merriweather;
     display: flex;
     justify-content: center;
     align-items: center;
