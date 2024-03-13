@@ -17,29 +17,32 @@
     <header>
       <div class="header">
         <img alt="Logo de Sanrio" src="imagenes/sanrio-logo-pink.png" class="logo" />
+        <label for="input" class="search-label">
+          <!-- <span class="material-icons">search</span> -->
+          <input type="text" class="character-search" placeholder="Buscar" />
+        </label>
         <div class="title">
           <!-- <h1>Sanrio Characters</h1> -->
         </div>
       </div>
     </header>
 
-    <div class="superButtons">
+    <div class="filterButton">
       <label for="filter" class="buttons">
-        <select data-testid="select-filter" name="genders" id="filter">
-          <option value="genres">Filtrar por:</option>
-          <option value="Acción">Acción</option>
-          <option value="Aventura">Aventura</option>
-          <option value="Bélico">Bélico</option>
-          <option value="Ciencia Ficción">Ciencia Ficción</option>
-          <option value="Comedia">Comedia</option>
-          <option value="Drama">Drama</option>
-          <option value="Familia">Familia</option>
-          <option value="Fantasía">Fantasía</option>
-          <option value="Infantil">Infantil</option>
-          <option value="Misterio">Misterio</option>
-          <option value="Romance">Romance</option>
-          <option value="Suspenso">Suspenso</option>
-          <option value="Terror">Terror</option>
+        <select data-testid="select-filter" name="zodiacSign" id="filter">
+          <option value="signs">Filtrar por signo:</option>
+          <option value="Aries">Aries</option>
+          <option value="Tauro">Tauro</option>
+          <option value="Géminis">Géminis</option>
+          <option value="Cáncer">Cáncer</option>
+          <option value="Leo">Leo</option>
+          <option value="Virgo">Virgo</option>
+          <option value="Libra">Libra</option>
+          <option value="Escorpio">Escorpio</option>
+          <option value="Sagitario">Sagitario</option>
+          <option value="Capricornio">Capricornio</option>
+          <option value="Acuario">Acuario</option>
+          <option value="Piscis">Piscis</option>
         </select>
       </label>
 
@@ -62,18 +65,16 @@
       </label>
     </div>
 
-    <div class="statsWindow noVisual">
+    <!-- <div class="statsWindow noVisual">
       <h3>Estadísticas de Géneros</h3>
       <p class="statsMovie"></p>
       <label for="button">
         <button class="closeStats"><b>Ver menos</b></button>
       </label>
     </div>
-    <div class="statsFondo noVisual"></div>
-    <label for="input" class="search-label">
-      <!-- <span class="material-icons">search</span> -->
-      <input type="text" class="character-search" placeholder="Buscar" />
-    </label>
+    <div class="statsFondo noVisual"></div> -->
+    
+    <div id="charactersList"></div>
 
     <div id="root"></div>
 
