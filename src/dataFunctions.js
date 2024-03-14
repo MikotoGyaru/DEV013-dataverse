@@ -1,15 +1,13 @@
 // Estas funciones son ejemplos, aquí puedes desarrollar tus propias funciones.
 
-import { renderItems } from "./view.js";
-import data from './data/dataset.js';
-
-
-export const renderFilteredCharacters = (selectedSign, container) => {
+export const renderFilteredCharacters = (selectedSign, data) => {
   const characters = data.filter(character => {
-      return character.facts.zodiacSign === selectedSign;
+    return character.facts.zodiacSign === selectedSign;
   });
-  container.innerHTML = "";
-  container.appendChild(renderItems(characters));
+  // container.innerHTML = "";
+  // container.appendChild(renderItems(characters));
+  return characters;
+
 };
 
 
