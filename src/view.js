@@ -30,7 +30,6 @@ export const renderItems = (data) => {
       <div class="modalFondo hiden"></div>
     `;
     list.appendChild(card);
-
     const popUpWindow = card.querySelector(".windowModal");
     const buttonWindow = card.querySelector(".cardsBtn");
     const fondoModal = card.querySelector(".modalFondo");

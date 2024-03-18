@@ -229,6 +229,8 @@ ul {
     background-image: url('imagenes/fondo-modal.png');
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: column;
 }
 .windowModal .noVisual {
     position: absolute;
@@ -241,6 +243,7 @@ ul {
     background-color: var(--pink-dust-light);
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 .noVisual > h1 {
@@ -249,6 +252,7 @@ ul {
     text-align: center;
     color: var(--white);
     font-family: "Galada", cursive;
+    text-shadow: 2px 2px 2px var(--pink-logo);
 }
 .noVisual >img {
     width: 260px;
@@ -269,7 +273,7 @@ ul {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .closeWindow:hover {
-    background-color: var(--pink-dust);
+    background-color: var(--pink-logo);
     border: var(--grey);
     color: var(--white);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
